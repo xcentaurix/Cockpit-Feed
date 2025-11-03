@@ -1,0 +1,13 @@
+Package: cockpit-example
+Version: 1.0.0
+Architecture: all
+Maintainer: Cockpit Team <maintainer@example.com>
+Section: multimedia
+Priority: optional
+Description: Example Cockpit plugin for Enigma2
+ This is an example package demonstrating the structure
+ of a Cockpit plugin for Enigma2 receivers.
+ .
+ Replace this with your actual package description.
+Depends: enigma2
+Source: https://github.com/CodeIsUs/Cockpit

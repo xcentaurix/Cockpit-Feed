@@ -1,0 +1,9 @@
+#!/bin/sh
+# Post-installation script for cockpit-example
+
+echo "Installing cockpit-example..."
+
+# Restart Enigma2 if needed
+# killall -9 enigma2
+
+exit 0
