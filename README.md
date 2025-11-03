@@ -2,7 +2,7 @@
 
 OPKG Package Feed for Cockpit series OA Enigma2 plugins
 
-[![Build OPKG Packages](https://github.com/CodeIsUs/Cockpit/actions/workflows/build-packages.yml/badge.svg)](https://github.com/CodeIsUs/Cockpit/actions/workflows/build-packages.yml)
+[![Publish Package Feed](https://github.com/CodeIsUs/Cockpit/actions/workflows/build-packages.yml/badge.svg)](https://github.com/CodeIsUs/Cockpit/actions/workflows/build-packages.yml)
 
 ## Overview
 
