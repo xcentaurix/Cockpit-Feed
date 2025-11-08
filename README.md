@@ -1,8 +1,8 @@
-# Cockpit
+# Cockpit-Feed
 
 OPKG Package Feed for Cockpit series OA Enigma2 plugins
 
-[![Publish Package Feed](https://github.com/CodeIsUs/Cockpit/actions/workflows/build-packages.yml/badge.svg)](https://github.com/CodeIsUs/Cockpit/actions/workflows/build-packages.yml)
+[![Publish Package Feed](https://github.com/dream-alpha/Cockpit-Feed/actions/workflows/build-packages.yml/badge.svg)](https://github.com/dream-alpha/Cockpit-Feed/actions/workflows/build-packages.yml)
 
 ## Overview
 
@@ -22,7 +22,7 @@ Add the package feed to your Enigma2 receiver:
 
 ```bash
 # Add feed configuration
-echo "src/gz cockpit https://dream-alpha.github.io/Cockpit/packages/all" > /etc/opkg/cockpit.conf
+echo "src/gz cockpit https://dream-alpha.github.io/Cockpit-Feed/packages/all" > /etc/opkg/cockpit.conf
 
 # Update package list
 opkg update
@@ -39,8 +39,8 @@ To contribute packages to this feed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/CodeIsUs/Cockpit.git
-cd Cockpit
+git clone https://github.com/dream-alpha/Cockpit-Feed.git
+cd Cockpit-Feed
 
 # Add your pre-built .ipk file to the appropriate architecture directory
 cp /path/to/your-package.ipk packages/all/
@@ -53,7 +53,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 ## Package Feed Structure
 
 ```
-Cockpit/
+Cockpit-Feed/
 ├── packages/             # Pre-built packages
 │   ├── all/              # Architecture-independent packages
 │   │   └── *.ipk         # Package files (committed)
@@ -165,8 +165,8 @@ See [LICENSE](LICENSE) file for details.
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/CodeIsUs/Cockpit/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/CodeIsUs/Cockpit/discussions)
+- **Issues**: [GitHub Issues](https://github.com/dream-alpha/Cockpit-Feed/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/dream-alpha/Cockpit-Feed/discussions)
 - **Documentation**: See docs in this repository
 
 ## Maintainers

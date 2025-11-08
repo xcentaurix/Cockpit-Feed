@@ -215,9 +215,9 @@ cd ..
 Once you've built your package:
 
 1. **Test the package** locally to ensure it works
-2. **Copy the .ipk file** to the appropriate directory in the Cockpit repository:
+2. **Copy the .ipk file** to the appropriate directory in the Cockpit-Feed repository:
    ```bash
-   cp my-plugin_1.0.0_all.ipk /path/to/Cockpit/packages/all/
+   cp my-plugin_1.0.0_all.ipk /path/to/Cockpit-Feed/packages/all/
    ```
 3. **Commit and submit a pull request**
 

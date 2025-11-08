@@ -22,7 +22,7 @@ vi /etc/opkg/cockpit.conf
 3. Add the package feed URL:
 
 ```
-src/gz cockpit https://dream-alpha.github.io/Cockpit/packages/all
+src/gz cockpit https://dream-alpha.github.io/Cockpit-Feed/packages/all
 ```
 
 **Note:** Replace the URL with the actual GitHub Pages URL for this repository.
@@ -52,16 +52,16 @@ If your receiver has a specific architecture, use the appropriate feed:
 
 ```bash
 # For ARM-based receivers
-src/gz cockpit-arm https://dream-alpha.github.io/Cockpit/packages/arm
+src/gz cockpit-arm https://dream-alpha.github.io/Cockpit-Feed/packages/arm
 
 # For MIPS-based receivers
-src/gz cockpit-mips https://dream-alpha.github.io/Cockpit/packages/mips
+src/gz cockpit-mips https://dream-alpha.github.io/Cockpit-Feed/packages/mips
 
 # For x86_64-based receivers
-src/gz cockpit-x86_64 https://dream-alpha.github.io/Cockpit/packages/x86_64
+src/gz cockpit-x86_64 https://dream-alpha.github.io/Cockpit-Feed/packages/x86_64
 
 # For architecture-independent packages
-src/gz cockpit-all https://dream-alpha.github.io/Cockpit/packages/all
+src/gz cockpit-all https://dream-alpha.github.io/Cockpit-Feed/packages/all
 ```
 
 ## Installing Packages
@@ -131,7 +131,7 @@ If `opkg update` doesn't find packages:
 1. Check the feed URL is correct
 2. Verify network connectivity:
    ```bash
-   wget -O- https://dream-alpha.github.io/Cockpit/packages/all/Packages
+   wget -O- https://dream-alpha.github.io/Cockpit-Feed/packages/all/Packages
    ```
 3. Check if the Packages.gz file exists on the server
 
@@ -214,16 +214,16 @@ If you encounter issues:
 
 ```bash
 # All architectures
-src/gz cockpit-all https://dream-alpha.github.io/Cockpit/packages/all
+src/gz cockpit-all https://dream-alpha.github.io/Cockpit-Feed/packages/all
 
 # ARM
-src/gz cockpit-arm https://dream-alpha.github.io/Cockpit/packages/arm
+src/gz cockpit-arm https://dream-alpha.github.io/Cockpit-Feed/packages/arm
 
 # MIPS
-src/gz cockpit-mips https://dream-alpha.github.io/Cockpit/packages/mips
+src/gz cockpit-mips https://dream-alpha.github.io/Cockpit-Feed/packages/mips
 
 # x86_64
-src/gz cockpit-x86_64 https://dream-alpha.github.io/Cockpit/packages/x86_64
+src/gz cockpit-x86_64 https://dream-alpha.github.io/Cockpit-Feed/packages/x86_64
 ```
 
 **Remember to replace the URLs with your actual package feed location!**

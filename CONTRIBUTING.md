@@ -24,12 +24,12 @@ Thank you for your interest in contributing to the Cockpit OPKG package feed! Th
 1. Fork the repository on GitHub
 2. Clone your fork:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Cockpit.git
-   cd Cockpit
+   git clone https://github.com/YOUR-USERNAME/Cockpit-Feed.git
+   cd Cockpit-Feed
    ```
 3. Add upstream remote:
    ```bash
-   git remote add upstream https://github.com/CodeIsUs/Cockpit.git
+   git remote add upstream https://github.com/dream-alpha/Cockpit-Feed.git
    ```
 
 ## Adding a New Package
@@ -127,8 +127,8 @@ ls -la
 
 1. **Fork and clone the repository**
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Cockpit.git
-   cd Cockpit
+   git clone https://github.com/YOUR-USERNAME/Cockpit-Feed.git
+   cd Cockpit-Feed
    ```
 
 2. **Create a branch**
