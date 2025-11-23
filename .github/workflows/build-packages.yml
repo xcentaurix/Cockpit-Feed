@@ -1,0 +1,79 @@
+name: Publish Package Feed
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  mirror-and-publish:
+    name: Mirror to gh-pages and Generate Package Indexes
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    
+    steps:
+      - name: Checkout main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      
+      - name: Set up environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            binutils \
+            gzip
+      
+      - name: List packages
+        run: |
+          echo "Packages in repository:"
+          find packages -name "*.ipk" -type f -ls
+      
+      - name: Generate package indexes
+        run: |
+          chmod +x scripts/generate-index.sh
+          ./scripts/generate-index.sh
+      
+      - name: Display generated indexes
+        run: |
+          echo "Generated package indexes:"
+          find packages -name "Packages" -o -name "Packages.gz" -type f -ls
+      
+      - name: Configure Git
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+      
+      - name: Force push to gh-pages (full mirror)
+        run: |
+          # Create or reset gh-pages branch to match main exactly
+          git checkout -B gh-pages
+          
+          # Force add generated index files (which might be in .gitignore)
+          git add -f packages/
+          
+          # Commit if there are changes
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Update package feed indexes [skip ci]"
+          fi
+          
+          # Force push to gh-pages (this will mirror main completely)
+          git push -f origin gh-pages
+          echo "Successfully mirrored main to gh-pages with updated package indexes"
+      
+      - name: Display feed URL
+        run: |
+          REPO_URL="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
+          echo "Package feed published at: $REPO_URL/packages/"
+          echo ""
+          echo "Add to opkg configuration:"
+          echo "  src/gz cockpit $REPO_URL/packages/all"
+          echo "  src/gz cockpit-arm $REPO_URL/packages/arm"
+          echo "  src/gz cockpit-mipsel $REPO_URL/packages/mipsel"
