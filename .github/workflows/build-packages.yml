@@ -3,7 +3,7 @@ name: Publish Package Feed
 on:
   push:
     branches:
-      - main
+      - master
   workflow_dispatch:
 
 jobs:
@@ -16,10 +16,10 @@ jobs:
       id-token: write
     
     steps:
-      - name: Checkout main branch
+      - name: Checkout master branch
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: master
           fetch-depth: 0
       
       - name: Set up environment
@@ -51,7 +51,7 @@ jobs:
       
       - name: Force push to gh-pages (full mirror)
         run: |
-          # Create or reset gh-pages branch to match main exactly
+          # Create or reset gh-pages branch to match master exactly
           git checkout -B gh-pages
           
           # Force add generated index files (which might be in .gitignore)
@@ -64,9 +64,9 @@ jobs:
             git commit -m "Update package feed indexes [skip ci]"
           fi
           
-          # Force push to gh-pages (this will mirror main completely)
+          # Force push to gh-pages (this will mirror master completely)
           git push -f origin gh-pages
-          echo "Successfully mirrored main to gh-pages with updated package indexes"
+          echo "Successfully mirrored master to gh-pages with updated package indexes"
       
       - name: Display feed URL
         run: |
