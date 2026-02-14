@@ -1,0 +1,157 @@
+Description: BaseSetup
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-basesetup
+Version: 0.1.16
+Architecture: all
+Depends: samba
+Filename: enigma2-plugin-extensions-basesetup_0.1.16_all.ipk
+Size: 3358
+MD5Sum: 2d789df81567e0ea8ed1306c7049fcc9
+
+Description: MovieCockpit
+Maintainer: dream-alpha
+Package: enigma2-plugin-extensions-moviecockpit
+Version: 0.4.8
+Architecture: all
+Depends: python3-requests, python3-six, enigma2-plugin-skincomponents-cockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-jobcockpit
+Filename: enigma2-plugin-extensions-moviecockpit_0.4.8_all.ipk
+Size: 258270
+MD5Sum: 07e76a9a00b125ee3298e70e39b3af98
+
+Description: OpenCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-opencockpit
+Version: 0.2.5
+Architecture: all
+Depends: enigma2-plugin-extensions-moviecockpit, enigma2-plugin-extensions-mediacockpit, enigma2-plugin-systemplugins-powercockpit, enigma2-plugin-extensions-timeshiftcockpit, enigma2-plugin-extensions-piconcockpit, enigma2-plugin-extensions-tmdbcockpit, enigma2-plugin-extensions-mediathekcockpit, enigma2-plugin-extensions-tvmagazinecockpit
+Filename: enigma2-plugin-extensions-opencockpit_0.2.5_all.ipk
+Size: 13476
+MD5Sum: 14559524c7cbf69dede4fdbe09702ee3
+
+Description: PiconCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-piconcockpit
+Version: 0.0.4
+Architecture: all
+Depends: enigma2-plugin-skincomponents-e2darkosaddon
+Filename: enigma2-plugin-extensions-piconcockpit_0.0.4_all.ipk
+Size: 47172
+MD5Sum: 5b4552f6e630ab56b76b22e8dd200104
+
+Description: TestCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-testcockpit
+Version: 0.2.17
+Architecture: all
+Depends: enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-covercockpit, enigma2-plugin-skincomponents-e2darkosaddon
+Filename: enigma2-plugin-extensions-testcockpit_0.2.17_all.ipk
+Size: 36912
+MD5Sum: 830f9d65a8fdf7927b94e512f1cf2264
+
+Description: TimeshiftCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-timeshiftcockpit
+Version: 0.2.7
+Architecture: all
+Conflicts: enigma2-plugin-extensions-permanenttimeshift
+Depends: enigma2-plugin-skincomponents-cockpit, enigma2-plugin-systemplugins-covercockpit, enigma2-plugin-systemplugins-jobcockpit
+Filename: enigma2-plugin-extensions-timeshiftcockpit_0.2.7_all.ipk
+Size: 222748
+MD5Sum: 6a4c91f5a3736e1cafe00bc7a713d526
+
+Description: TMDBCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-tmdbcockpit
+Version: 1.0.9
+Architecture: all
+Depends: python3-requests, enigma2-plugin-skincomponents-e2darkosaddon
+Filename: enigma2-plugin-extensions-tmdbcockpit_1.0.9_all.ipk
+Size: 144156
+MD5Sum: 3cd17b0e11b8c5b993d0863ef276b88a
+
+Description: ComponentsCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-skincomponents-cockpit
+Version: 0.2.9
+Architecture: all
+Conflicts: enigma2-plugin-systemplugins-cockpitcomponents, enigma2-skincomponents-compatibilitycomponents, enigma2-plugin-systemplugins-componentscockpit
+Replaces: enigma2-plugin-systemplugins-cockpitcomponents, enigma2-skincomponents-compatibilitycomponents, enigma2-plugin-systemplugins-componentscockpit
+Filename: enigma2-plugin-skincomponents-cockpit_0.2.9_all.ipk
+Size: 15476
+MD5Sum: 1fb7e06e01c051941f08bd99b98c68ef
+
+Description: E2DarkOSAddon
+Maintainer: xcentaurix
+Package: enigma2-plugin-skincomponents-e2darkosaddon
+Version: 0.3.4
+Architecture: all
+Filename: enigma2-plugin-skincomponents-e2darkosaddon_0.3.4_all.ipk
+Size: 2446
+MD5Sum: b3f1ccb8f9cd8138c4dc920263c0dc4c
+
+Description: CacheCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-cachecockpit
+Version: 0.2.36
+Architecture: all
+Depends: python3-sqlite3, python3-requests, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-jobcockpit
+Filename: enigma2-plugin-systemplugins-cachecockpit_0.2.36_all.ipk
+Size: 69790
+MD5Sum: ccfc9c8d35f4b42b43198ded227e5cc8
+
+Description: CoverCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-covercockpit
+Version: 0.2.3
+Architecture: all
+Filename: enigma2-plugin-systemplugins-covercockpit_0.2.3_all.ipk
+Size: 16688
+MD5Sum: f4423609158539223de93d4164e0b2f7
+
+Description: E2DarkOSAddon
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-e2darkosaddon
+Version: 0.3.0
+Architecture: all
+Filename: enigma2-plugin-systemplugins-e2darkosaddon_0.3.0_all.ipk
+Size: 3072
+MD5Sum: cf15e7bcef5be7f38d2e627fc74bc67d
+
+Description: JobCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-jobcockpit
+Version: 0.2.5
+Architecture: all
+Filename: enigma2-plugin-systemplugins-jobcockpit_0.2.5_all.ipk
+Size: 33566
+MD5Sum: 75ff52a07b965d694df2bdd57fc9795f
+
+Description: MountCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-mountcockpit
+Version: 0.2.3
+Architecture: all
+Filename: enigma2-plugin-systemplugins-mountcockpit_0.2.3_all.ipk
+Size: 9838
+MD5Sum: 54337f676ca857347f7e9f7c09c5582d
+
+Description: PowerCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-powercockpit
+Version: 0.2.2
+Architecture: all
+Conflicts: enigma2-plugin-systemplugins-safepoweroff
+Replaces: enigma2-plugin-systemplugins-safepoweroff
+Filename: enigma2-plugin-systemplugins-powercockpit_0.2.2_all.ipk
+Size: 8246
+MD5Sum: 7246b7e7a8aabbd034c118b60ae84112
+
+Description: UbuntuCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-ubuntucockpit
+Version: 0.7.15
+Architecture: all
+Filename: enigma2-plugin-systemplugins-ubuntucockpit_0.7.15_all.ipk
+Size: 19088
+MD5Sum: 00cdfe83998602b4cda51ab2fbf2726b
+
