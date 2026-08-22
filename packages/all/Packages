@@ -1,0 +1,644 @@
+Description: BaseSetup
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-basesetup
+Version: 0.1.47
+Architecture: all
+Depends: samba
+Filename: enigma2-plugin-extensions-basesetup_0.1.47_all.ipk
+Size: 203576
+MD5Sum: df14151228274235541e154cf6b65d09
+
+Description: DonarCockpit
+Package: enigma2-plugin-extensions-donarcockpit
+Version: 0.2.1
+Architecture: all
+Depends: python3-twisted, python3-difflib
+Filename: enigma2-plugin-extensions-donarcockpit_0.2.1_all.ipk
+Size: 34350
+MD5Sum: 7d538e11fe4da3a04913f48812bd4f88
+
+Description: HydraCockpit
+Package: enigma2-plugin-extensions-hydracockpit
+Version: 0.1.2
+Architecture: all
+Depends: enigma2-plugin-extensions-donarcockpit, python3-imaging, transmission-client, transmission
+Filename: enigma2-plugin-extensions-hydracockpit_0.1.2_all.ipk
+Size: 1402650
+MD5Sum: 132a410dab9873f10130b40ff1e593c9
+
+Description: LCDTest
+Package: enigma2-plugin-extensions-lcdtest
+Version: 0.0.2
+Architecture: all
+Filename: enigma2-plugin-extensions-lcdtest_0.0.2_all.ipk
+Size: 7204
+MD5Sum: 44764503b4d14bbd9b2e9c804fbb1809
+
+Description: MediaCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-mediacockpit
+Version: 0.4.1
+Architecture: all
+Depends: python3-pillow, python3-twisted, python3-mutagen, ffmpeg, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-skincomponents-cockpit, enigma2-plugin-systemplugins-cachecockpit
+Filename: enigma2-plugin-extensions-mediacockpit_0.4.1_all.ipk
+Size: 128426
+MD5Sum: d48954ac5e58a903cd2320db551fdf01
+
+Description: MediathekCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-mediathekcockpit
+Version: 0.4.1
+Architecture: all
+Depends: enigma2-plugin-systemplugins-jobcockpit, enigma2-plugin-skincomponents-cockpit
+Filename: enigma2-plugin-extensions-mediathekcockpit_0.4.1_all.ipk
+Size: 229380
+MD5Sum: 8fd867abcfb9438af9a0eec3c8e26e13
+
+Description: MovieCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-moviecockpit
+Version: 0.7.1
+Architecture: all
+Depends: python3-requests, python3-six, enigma2-plugin-skincomponents-cockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-jobcockpit
+Filename: enigma2-plugin-extensions-moviecockpit_0.7.1_all.ipk
+Size: 254458
+MD5Sum: aa3bff32849e587c5d11e1238f705299
+
+Description: OpenCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-opencockpit
+Version: 0.3.4
+Architecture: all
+Depends: enigma2-plugin-extensions-moviecockpit, enigma2-plugin-systemplugins-powercockpit, enigma2-plugin-extensions-timeshiftcockpit, enigma2-plugin-extensions-piconcockpit, enigma2-plugin-extensions-tvmagazinecockpit, enigma2-plugin-extensions-mediathekcockpit, enigma2-plugin-extensions-tmdbcockpit, enigma2-plugin-extensions-plutotv, enigma2-plugin-extensions-samsungtv, enigma2-plugin-extensions-rakutentv
+Filename: enigma2-plugin-extensions-opencockpit_0.3.4_all.ipk
+Size: 1238
+MD5Sum: 8009b3ce3405bddebdd88ff690e1fa5a
+
+Description: PiconCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-piconcockpit
+Version: 0.7.1
+Architecture: all
+Filename: enigma2-plugin-extensions-piconcockpit_0.7.1_all.ipk
+Size: 29450
+MD5Sum: a678019d6886ec681e9173d72bd6689a
+
+Package: enigma2-plugin-extensions-plutotvcockpit
+Version: 0.21.0
+Plugin: PlutoTVCockpit
+Description: PlutoTVCockpit plugin for enigma2
+Architecture: all
+Depends: python3-pycryptodome, enigma2-plugin-extensions-epgimport
+Filename: enigma2-plugin-extensions-plutotvcockpit_0.21.0_all.ipk
+Size: 509274
+MD5Sum: a7418756627e525f2be9a9c1e3c69ed1
+
+Description: RakutenTVCockpit
+Package: enigma2-plugin-extensions-rakutentvcockpit
+Version: 0.14.1
+Architecture: all
+Depends: enigma2-plugin-extensions-epgimport
+Filename: enigma2-plugin-extensions-rakutentvcockpit_0.14.1_all.ipk
+Size: 231240
+MD5Sum: e136a1d51bcc580e8dda0cc9c43ccf96
+
+Package: enigma2-plugin-extensions-samsungtvcockpit
+Version: 1.13.1
+Maintainer: xcentaurix
+Architecture: all
+Depends: enigma2-plugin-extensions-epgimport
+Filename: enigma2-plugin-extensions-samsungtvcockpit_1.13.1_all.ipk
+Size: 337330
+MD5Sum: ba5b4457189128339d752b93b97b8642
+
+Description: TestCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-testcockpit
+Version: 0.0.1
+Architecture: all
+Depends: enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-covercockpit
+Filename: enigma2-plugin-extensions-testcockpit_0.0.1_all.ipk
+Size: 36228
+MD5Sum: a0e31d7351c403131fe54b77e5faab16
+
+Description: TheraphosaCockpit
+Package: enigma2-plugin-extensions-theraphosacockpit
+Version: 0.0.7
+Architecture: all
+Depends: enigma2-plugin-extensions-donarcockpit, python3-imaging, python3-transmission-rpc, python3-beautifulsoup4, python3-requests, python3-twisted, transmission-client, transmission, wget, bash, xz
+Filename: enigma2-plugin-extensions-theraphosacockpit_0.0.7_all.ipk
+Size: 7600516
+MD5Sum: 19c730a6b382310f3a579cc329d2e758
+
+Description: TimeshiftCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-timeshiftcockpit
+Version: 0.5.1
+Architecture: all
+Conflicts: enigma2-plugin-extensions-permanenttimeshift
+Depends: enigma2-plugin-systemplugins-powercockpit, enigma2-plugin-skincomponents-cockpit, enigma2-plugin-systemplugins-covercockpit, enigma2-plugin-systemplugins-jobcockpit
+Filename: enigma2-plugin-extensions-timeshiftcockpit_0.5.1_all.ipk
+Size: 194010
+MD5Sum: 31685babe9c99f3672829ab565d10878
+
+Description: TMDBCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-tmdbcockpit
+Version: 1.2.1
+Architecture: all
+Depends: python3-requests, python3-yt-dlp
+Filename: enigma2-plugin-extensions-tmdbcockpit_1.2.1_all.ipk
+Size: 118188
+MD5Sum: bd383e24df0f53172d257c04b189a07b
+
+Description: TVMagazineCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-tvmagazinecockpit
+Version: 0.4.0
+Architecture: all
+Depends: enigma2-plugin-skincomponents-cockpit, enigma2-plugin-systemplugins-covercockpit
+Filename: enigma2-plugin-extensions-tvmagazinecockpit_0.4.0_all.ipk
+Size: 117900
+MD5Sum: 22e8469e7b89a5757f6fe7cc4c924495
+
+Description: ComponentsCockpit
+Package: enigma2-plugin-skincomponents-cockpit
+Version: 0.3.0
+Architecture: all
+Filename: enigma2-plugin-skincomponents-cockpit_0.3.0_all.ipk
+Size: 17684
+MD5Sum: 76d915d3179b14ed5c0dcf20c21f4b1f
+
+Description: ComponentsCockpit
+Package: enigma2-plugin-skincomponents-cockpit
+Version: 0.3.1
+Architecture: all
+Filename: enigma2-plugin-skincomponents-cockpit_0.3.1_all.ipk
+Size: 18194
+MD5Sum: e0138327f9e3618c621ea31e0a8e06db
+
+Package: enigma2-plugin-skins-lcdcockpit
+Version: 0.3.0
+Architecture: all
+Depends: enigma2-plugin-skincomponents-cockpit
+Filename: enigma2-plugin-skins-lcdcockpit_0.3.0_all.ipk
+Size: 23666
+MD5Sum: 1da40e146e197acbeb137106f66596d9
+
+Description: CacheCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-cachecockpit
+Version: 0.3.1
+Architecture: all
+Depends: python3-sqlite3, python3-requests, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-jobcockpit
+Filename: enigma2-plugin-systemplugins-cachecockpit_0.3.1_all.ipk
+Size: 58386
+MD5Sum: 8fd1b914316f7725b6ac8d85bd127ba4
+
+Description: CoverCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-covercockpit
+Version: 0.3.1
+Architecture: all
+Filename: enigma2-plugin-systemplugins-covercockpit_0.3.1_all.ipk
+Size: 18300
+MD5Sum: c8bf5e7e510d99dd9ff4bc1138367935
+
+Package: enigma2-plugin-systemplugins-iptvservicecockpit
+Version: 0.1.0
+Architecture: all
+Filename: enigma2-plugin-systemplugins-iptvservicecockpit_0.1.0_all.ipk
+Size: 8350
+MD5Sum: 1e82326f2553a4f51994f456bb337836
+
+Description: JobCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-jobcockpit
+Version: 0.6.1
+Architecture: all
+Filename: enigma2-plugin-systemplugins-jobcockpit_0.6.1_all.ipk
+Size: 20834
+MD5Sum: f4dbe83f1cacf8fcb9a95b641c090436
+
+Description: MountCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-mountcockpit
+Version: 0.4.1
+Architecture: all
+Filename: enigma2-plugin-systemplugins-mountcockpit_0.4.1_all.ipk
+Size: 9764
+MD5Sum: d4f2507ab493515b0c225f5d550a2f80
+
+Description: PowerCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-powercockpit
+Version: 0.5.1
+Architecture: all
+Conflicts: enigma2-plugin-systemplugins-safepoweroff
+Replaces: enigma2-plugin-systemplugins-safepoweroff
+Filename: enigma2-plugin-systemplugins-powercockpit_0.5.1_all.ipk
+Size: 11210
+MD5Sum: a0bd8c666ac7fe6ceb83d0d9601b4a1f
+
+Description: UbuntuCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-ubuntucockpit
+Version: 25.11.5
+Architecture: all
+Filename: enigma2-plugin-systemplugins-ubuntucockpit_25.11.5_all.ipk
+Size: 8082
+MD5Sum: 1f9f8ae72e7aac3c4f5a696d9e02d3d7
+
+Package: libatomic1
+Version: 14.2.0-19+rpi1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 33
+Description: support library providing __atomic built-in functions
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libatomic.so.1.
+Filename: libatomic1_14.2.0-19+rpi1_armv7ahf-neon.ipk
+Size: 9420
+MD5Sum: bd8cfb8534d02bc15e83e47cfd67a431
+
+Package: libbrotli1
+Version: 1.1.0-2+b2
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 776
+Description: library implementing brotli encoder and decoder
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libbrotlicommon.so.1, libbrotlidec.so.1, libbrotlienc.so.1.
+Filename: libbrotli1_1.1.0-2+b2_armv7ahf-neon.ipk
+Size: 362828
+MD5Sum: b31e31bc84a33befb9df4539abd3752c
+
+Package: libbsd0
+Version: 0.12.2-3
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 66
+Depends: libmd0
+Description: utility functions from BSD systems - shared library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libbsd.so.0.
+Filename: libbsd0_0.12.2-3_armv7ahf-neon.ipk
+Size: 32874
+MD5Sum: 1ccb38d83c58fdc185bfcddc849fa724
+
+Package: libcjson1
+Version: 1.7.18-3.1+deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 130
+Description: Ultralightweight JSON parser in ANSI C
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libcjson.so.1 and libcjson_utils.so.1.
+Filename: libcjson1_1.7.18-3.1+deb13u1_armv7ahf-neon.ipk
+Size: 18404
+MD5Sum: 6da60f22073dd3e21ebd6c6e4bb9af53
+
+Package: libcurl4t64
+Version: 8.14.1-2+deb13u3
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 834
+Depends: libssl3t64, libbrotli1, libnghttp2-14, libnghttp3-9, libldap2, libsasl2-2, libgssapi-krb5-2, libssh2-1t64
+Description: easy-to-use client-side URL transfer library (OpenSSL flavour)
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libcurl.so.4 with full HTTP/2, HTTP/3, LDAP, GSS-API and SSH
+ support. All Depends below are repackaged as .ipk in this same set
+ (libc6, libssl3t64, libzstd1, zlib1g, libidn2-0, libpsl5t64, librtmp1
+ were already natively present on this box and are intentionally not
+ listed since no matching opkg package exists for them here).
+Filename: libcurl4t64_8.14.1-2+deb13u3_armv7ahf-neon.ipk
+Size: 405140
+MD5Sum: 1cf89f9bc5abd4d8acd85f6e67beadd0
+
+Package: libdb5.3t64
+Version: 5.3.28+dfsg2-9
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 1553
+Description: Berkeley v5.3 Database Libraries [runtime]
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libdb-5.3.so.
+Filename: libdb5.3t64_5.3.28+dfsg2-9_armv7ahf-neon.ipk
+Size: 762050
+MD5Sum: e4642491375cc5850e081ee0a596196d
+
+Package: libedit2
+Version: 3.1-20250104-1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 166
+Depends: libbsd0, libtinfo6
+Description: BSD editline and history libraries
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libedit.so.2.
+Filename: libedit2_3.1-20250104-1_armv7ahf-neon.ipk
+Size: 73510
+MD5Sum: f1ecf8b60d7fb8650ecde6d083287f6d
+
+Package: libgssapi-krb5-2
+Version: 1.21.3-5+deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 324
+Depends: libkrb5-3, libcom-err2, libk5crypto3, libkrb5support0
+Description: MIT Kerberos runtime libraries - GSS-API library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libgssapi_krb5.so.2.
+Filename: libgssapi-krb5-2_1.21.3-5+deb13u1_armv7ahf-neon.ipk
+Size: 130384
+MD5Sum: 866ff93a651a6fee5a3a02c704b1fe1b
+
+Package: libk5crypto3
+Version: 1.21.3-5+deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 193
+Depends: libkrb5support0
+Description: MIT Kerberos runtime libraries - Crypto Library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libk5crypto.so.3.
+Filename: libk5crypto3_1.21.3-5+deb13u1_armv7ahf-neon.ipk
+Size: 80864
+MD5Sum: db5bdc62ecee1d299143438379a5f678
+
+Package: libkeyutils1
+Version: 1.6.3-6+rpi1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 13
+Description: Linux Key Management Utilities (library)
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libkeyutils.so.1.
+Filename: libkeyutils1_1.6.3-6+rpi1_armv7ahf-neon.ipk
+Size: 6108
+MD5Sum: e7c0bb74ad1600a82eada092f0041271
+
+Package: libkrb5-3
+Version: 1.21.3-5+deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 710
+Depends: libkrb5support0, libcom-err2, libk5crypto3, libkeyutils1, libssl3t64
+Description: MIT Kerberos runtime libraries
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libkrb5.so.3.
+Filename: libkrb5-3_1.21.3-5+deb13u1_armv7ahf-neon.ipk
+Size: 307194
+MD5Sum: a23460b670fde28a0a17fb6e23d096fd
+
+Package: libkrb5support0
+Version: 1.21.3-5+deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 66
+Description: MIT Kerberos runtime libraries - supporting library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libkrb5support.so.0.
+Filename: libkrb5support0_1.21.3-5+deb13u1_armv7ahf-neon.ipk
+Size: 19102
+MD5Sum: 2abced586c7cf4844f62ef9d0aabe0b7
+
+Package: libldap2
+Version: 2.6.10+dfsg-1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 375
+Depends: libsasl2-2, libssl3t64
+Description: OpenLDAP libraries
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides liblber.so.2 and libldap.so.2.
+Filename: libldap2_2.6.10+dfsg-1_armv7ahf-neon.ipk
+Size: 175478
+MD5Sum: 4f5b0ca5b918bf16706bef472c50dbe0
+
+Package: libmbedcrypto16
+Version: 3.6.5-0.1~deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 513
+Description: lightweight crypto and SSL/TLS library - crypto library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libmbedcrypto.so.16.
+Filename: libmbedcrypto16_3.6.5-0.1~deb13u1_armv7ahf-neon.ipk
+Size: 248298
+MD5Sum: 7b94be3e77727e2fdcd0fa9b429ef588
+
+Package: libmbedtls21
+Version: 3.6.5-0.1~deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 321
+Depends: libmbedcrypto16, libmbedx509-7
+Description: lightweight crypto and SSL/TLS library - tls library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libmbedtls.so.21.
+Filename: libmbedtls21_3.6.5-0.1~deb13u1_armv7ahf-neon.ipk
+Size: 136002
+MD5Sum: 3606d29d15e798c0e2b6a08002a02247
+
+Package: libmbedx509-7
+Version: 3.6.5-0.1~deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 65
+Depends: libmbedcrypto16
+Description: lightweight crypto and SSL/TLS library - x509 certificate library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libmbedx509.so.7.
+Filename: libmbedx509-7_3.6.5-0.1~deb13u1_armv7ahf-neon.ipk
+Size: 30794
+MD5Sum: 45caeea56dccc5bd777e4f35c039ad00
+
+Package: libmd0
+Version: 1.2.0-2
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 65
+Description: message digest functions from BSD systems - shared library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libmd.so.0.
+Filename: libmd0_1.2.0-2_armv7ahf-neon.ipk
+Size: 26852
+MD5Sum: e01ebb67d3a601f8c0e8e77b34985dca
+
+Package: libnghttp2-14
+Version: 1.64.0-1.1+deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 193
+Description: library implementing HTTP/2 protocol (shared library)
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libnghttp2.so.14.
+Filename: libnghttp2-14_1.64.0-1.1+deb13u1_armv7ahf-neon.ipk
+Size: 72530
+MD5Sum: 47faf723724fd492d711c30c7abef136
+
+Package: libnghttp3-9
+Version: 1.8.0-1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 137
+Description: library implementing HTTP/3 protocol (shared library)
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libnghttp3.so.9.
+Filename: libnghttp3-9_1.8.0-1_armv7ahf-neon.ipk
+Size: 68640
+MD5Sum: 5b31057bdc037693d7e298923a4b1b37
+
+Package: libpcsclite1
+Version: 2.3.3-1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 50
+Description: Middleware to access a smart card using PC/SC (library)
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libpcsclite.so.1 (dispatcher, dlopens libpcsclite_real.so.1 at
+ runtime - both files are included and must stay together).
+Filename: libpcsclite1_2.3.3-1_armv7ahf-neon.ipk
+Size: 22432
+MD5Sum: 96f19bc7c22733f34477c58ffca8536c
+
+Package: librist4
+Version: 0.2.13+dfsg-1+rpi1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 193
+Depends: libatomic1, libcjson1, libmbedcrypto16
+Description: Reliable Internet Stream Transport -- shared library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides librist.so.4.
+Filename: librist4_0.2.13+dfsg-1+rpi1_armv7ahf-neon.ipk
+Size: 79874
+MD5Sum: 57484ce4359551bc2dc6146247e4bee0
+
+Package: libsasl2-2
+Version: 2.1.28+dfsg1-9
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 89
+Depends: libssl3t64
+Description: Cyrus SASL - authentication abstraction library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libsasl2.so.2. Note: libsasl2-modules-db (DB-backed auth plugin,
+ dlopen'd at runtime, not a link-time dependency) was not packaged since
+ it is not required for TLS-based bind/auth paths used by curl/tsp.
+Filename: libsasl2-2_2.1.28+dfsg1-9_armv7ahf-neon.ipk
+Size: 46176
+MD5Sum: 67fc75e0fe6ddafd78d28b81a86fe04f
+
+Package: libssh2-1t64
+Version: 1.11.1-1+deb13u1
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 257
+Depends: libssl3t64
+Description: SSH2 client-side library
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libssh2.so.1.
+Filename: libssh2-1t64_1.11.1-1+deb13u1_armv7ahf-neon.ipk
+Size: 115494
+MD5Sum: 5370b89c38cfc5710efdf87d5e7d9056
+
+Package: libssl3t64
+Version: 3.5.6-1~deb13u2
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 5010
+Depends: libatomic1
+Description: Secure Sockets Layer toolkit - shared libraries
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libssl.so.3 and libcrypto.so.3.
+Filename: libssl3t64_3.5.6-1~deb13u2_armv7ahf-neon.ipk
+Size: 2178260
+MD5Sum: 3d0f2f0d29848fda91e3d4ff8b03364e
+
+Package: libtinfo6
+Version: 6.5+20250216-2
+Architecture: armv7ahf-neon
+Maintainer: repackaged-for-dm900 <noreply@localhost>
+Section: libs
+Priority: optional
+Installed-Size: 215
+Description: shared low-level terminfo library for terminal handling
+ Repackaged from Raspbian/Debian trixie (armhf) for OpenATV armv7ahf-neon.
+ Provides libtinfo.so.6 and libtic.so.6.
+Filename: libtinfo6_6.5+20250216-2_armv7ahf-neon.ipk
+Size: 99446
+MD5Sum: 2aa5634cb806e4bbc63317a484b83003
+
+Package: tsduck
+Source: tsduck
+Version: 3.44-4676.raspbian13
+Maintainer: Thierry Lelegard <thierry@lelegard.fr>
+Architecture: armv7ahf-neon
+Section: free/video
+Priority: optional
+Depends: libssl3t64, librist4, libedit2, libpcsclite1
+Description: MPEG Transport Stream Toolkit
+ TSDuck, the MPEG Transport Stream Toolkit, provides some simple utilities to
+ process MPEG Transport Streams (TS), either as recorded files or live streams.
+ .
+ Repackaged from the upstream Raspbian/Debian trixie (armhf) .deb for OpenATV
+ armv7ahf-neon (dm900). Depends only lists the libraries also repackaged here
+ as .ipk (libssl3t64, librist4, libedit2, libpcsclite1, and their own transitive
+ deps: libatomic1, libcjson1, libmbedcrypto16/libmbedx509-7/libmbedtls21,
+ libbsd0, libmd0, libtinfo6) - install those first. libc6, libstdc++6, libzstd1,
+ zlib1g, libusb-1.0-0 and libsrt1.5-openssl were already present on this box
+ and are intentionally not listed since no matching opkg package exists for them.
+Filename: tsduck_3.44-4676.raspbian13_armv7ahf-neon.ipk
+Size: 10166686
+MD5Sum: c8012563d89de08028fb0481056d7aa7
+
