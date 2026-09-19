@@ -1,0 +1,258 @@
+Description: BaseSetup
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-basesetup
+Architecture: all
+Depends: samba
+Version: 0.2.3
+Filename: enigma2-plugin-extensions-basesetup_0.2.3_all.ipk
+Size: 203556
+MD5Sum: ef12d562eaa35e753df1b941cc9600dd
+
+Description: DonarCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-donarcockpit
+Architecture: all
+Depends: python3-twisted, python3-difflib
+Version: 0.3.0
+Filename: enigma2-plugin-extensions-donarcockpit_0.3.0_all.ipk
+Size: 63026
+MD5Sum: ef87579a29320b2778bc7d02c36d3fb9
+
+Description: MediaCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-mediacockpit
+Architecture: all
+Depends: python3-pillow, python3-twisted, python3-mutagen, ffmpeg, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-cachecockpit
+Version: 0.10.5
+Filename: enigma2-plugin-extensions-mediacockpit_0.10.5_all.ipk
+Size: 101290
+MD5Sum: 035c3d8d1d6299b5a581aa3a3268f867
+
+Description: MediathekCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-mediathekcockpit
+Architecture: all
+Depends: enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-jobcockpit, enigma2-plugin-skincomponents-componentscockpit
+Version: 0.12.5
+Filename: enigma2-plugin-extensions-mediathekcockpit_0.12.5_all.ipk
+Size: 241900
+MD5Sum: 59b888639a39c4aeeccecbdebff092dc
+
+Description: MovieCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-moviecockpit
+Architecture: all
+Depends: python3-requests, python3-six, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-jobcockpit
+Version: 0.16.3
+Filename: enigma2-plugin-extensions-moviecockpit_0.16.3_all.ipk
+Size: 271270
+MD5Sum: fb8db33c1c994bdcf7e60c46efd33e1f
+
+Description: PiconCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-piconcockpit
+Architecture: all
+Version: 0.11.3
+Filename: enigma2-plugin-extensions-piconcockpit_0.11.3_all.ipk
+Size: 42172
+MD5Sum: 8fc29409a5ddd2b6f7190cfe72e8c0b6
+
+Package: enigma2-plugin-extensions-plutotvcockpit
+Plugin: PlutoTVCockpit
+Description: PlutoTVCockpit plugin for enigma2
+Maintainer: xcentaurix
+Architecture: all
+Depends: python3-pycryptodome, enigma2-plugin-extensions-epgimport
+Version: 0.26.3
+Filename: enigma2-plugin-extensions-plutotvcockpit_0.26.3_all.ipk
+Size: 357674
+MD5Sum: 94f1f5a7d9fb9b98768dd2962680554d
+
+Description: RakutenTVCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-rakutentvcockpit
+Architecture: all
+Depends: enigma2-plugin-extensions-epgimport
+Version: 0.19.3
+Filename: enigma2-plugin-extensions-rakutentvcockpit_0.19.3_all.ipk
+Size: 209286
+MD5Sum: e660557b510bcf9cf58c932e7a229113
+
+Description: SamsungTVCockpit
+Package: enigma2-plugin-extensions-samsungtvcockpit
+Maintainer: xcentaurix
+Architecture: all
+Depends: enigma2-plugin-extensions-epgimport
+Version: 1.18.3
+Filename: enigma2-plugin-extensions-samsungtvcockpit_1.18.3_all.ipk
+Size: 307820
+MD5Sum: 1dcb391fc2d82cb74114241b699096f7
+
+Description: TestCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-testcockpit
+Architecture: all
+Depends: enigma2-plugin-systemplugins-cachecockpit, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-covercockpit
+Version: 0.7.2
+Filename: enigma2-plugin-extensions-testcockpit_0.7.2_all.ipk
+Size: 61926
+MD5Sum: 2c78b49d319127cfc4e3b8005c1d6dc1
+
+Description: TimeshiftCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-timeshiftcockpit
+Architecture: all
+Conflicts: enigma2-plugin-extensions-permanenttimeshift
+Depends: enigma2-plugin-systemplugins-powercockpit, enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-covercockpit, enigma2-plugin-systemplugins-jobcockpit
+Version: 0.8.9
+Filename: enigma2-plugin-extensions-timeshiftcockpit_0.8.9_all.ipk
+Size: 212772
+MD5Sum: 0ec52e289b9984691c815a09b7676046
+
+Description: TMDBCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-tmdbcockpit
+Architecture: all
+Depends: python3-requests, python3-yt-dlp
+Version: 1.7.5
+Filename: enigma2-plugin-extensions-tmdbcockpit_1.7.5_all.ipk
+Size: 133614
+MD5Sum: cf72df0ebfbae695365956be6490d4f2
+
+Description: TVMagazineCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-extensions-tvmagazinecockpit
+Architecture: all
+Depends: enigma2-plugin-skincomponents-componentscockpit, enigma2-plugin-systemplugins-covercockpit
+Version: 0.11.2
+Filename: enigma2-plugin-extensions-tvmagazinecockpit_0.11.2_all.ipk
+Size: 69112
+MD5Sum: a846cb9c2dc626714bb667fdd57b7a81
+
+Description: ComponentsCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-skincomponents-componentscockpit
+Architecture: all
+Version: 0.4.4
+Filename: enigma2-plugin-skincomponents-componentscockpit_0.4.4_all.ipk
+Size: 301720
+MD5Sum: 6bfc17e8884121ca72685cc148e9b04e
+
+Description: DisplayCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-skins-displaycockpit
+Architecture: all
+Depends: enigma2-plugin-skincomponents-componentscockpit
+Version: 0.7.2
+Filename: enigma2-plugin-skins-displaycockpit_0.7.2_all.ipk
+Size: 23688
+MD5Sum: 03c19734eb7abe3047ff132d5e7009f7
+
+Description: CacheCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-cachecockpit
+Architecture: all
+Depends: python3-sqlite3, python3-requests, enigma2-plugin-systemplugins-mountcockpit, enigma2-plugin-systemplugins-jobcockpit
+Version: 0.5.3
+Filename: enigma2-plugin-systemplugins-cachecockpit_0.5.3_all.ipk
+Size: 73712
+MD5Sum: 8d7daa4964d073e4c2c7c8cf387fef89
+
+Description: CoverCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-covercockpit
+Architecture: all
+Version: 0.5.2
+Filename: enigma2-plugin-systemplugins-covercockpit_0.5.2_all.ipk
+Size: 30738
+MD5Sum: fc2bc4cd96c194786a5afca74fd8c51f
+
+Description: IPTVServiceCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-iptvservicecockpit
+Architecture: all
+Version: 0.3.1
+Filename: enigma2-plugin-systemplugins-iptvservicecockpit_0.3.1_all.ipk
+Size: 20426
+MD5Sum: eda91c07cb698dd2c3933d12811f6be5
+
+Description: JobCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-jobcockpit
+Architecture: all
+Version: 0.11.3
+Filename: enigma2-plugin-systemplugins-jobcockpit_0.11.3_all.ipk
+Size: 36158
+MD5Sum: c18a83cd676c92fb0e49219073e89e52
+
+Description: MountCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-mountcockpit
+Architecture: all
+Version: 0.7.1
+Filename: enigma2-plugin-systemplugins-mountcockpit_0.7.1_all.ipk
+Size: 22570
+MD5Sum: 839df8aad5fabc505cb01c058f6d566c
+
+Description: PowerCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-powercockpit
+Architecture: all
+Conflicts: enigma2-plugin-systemplugins-safepoweroff
+Replaces: enigma2-plugin-systemplugins-safepoweroff
+Version: 0.6.3
+Filename: enigma2-plugin-systemplugins-powercockpit_0.6.3_all.ipk
+Size: 23458
+MD5Sum: 068601364338442c240968a5b28714d9
+
+Description: UbuntuCockpit
+Maintainer: xcentaurix
+Package: enigma2-plugin-systemplugins-ubuntucockpit
+Architecture: all
+Version: 25.12.0
+Filename: enigma2-plugin-systemplugins-ubuntucockpit_25.12.0_all.ipk
+Size: 8068
+MD5Sum: 70a07ffc523fb39eda08a322320d38a3
+
+Package: tsduck
+Version: 3.44-4676-git4687+65dfa7e0+65dfa7eda1-r0
+Description: MPEG Transport Stream Toolkit
+ TSDuck is an extensible toolkit for MPEG/DVB transport streams. TSDuck is
+ used in digital television systems for test, monitoring, integration,
+ debug, lab, demo.
+Section: base
+Priority: optional
+Maintainer: https://tsduck.io/
+License: BSD-2-Clause
+Architecture: cortexa15hf-neon-vfpv4
+OE: tsduck
+Homepage: https://www.opena.tv
+Depends: libc6 (>= 2.44+git0+7cba77790f), libcrypto4 (>= 4.0.1), libcurl4 (>= 8.21.0), libedit0 (>= 20260512-3.1), libgcc1 (>= 16.2.0), libssl4 (>= 4.0.1), libstdc++6 (>= 16.2.0), libz1 (>= 1.3.2)
+Source: tsduck_git.bb
+Filename: tsduck_3.44-4676-git4687+65dfa7e0+65dfa7eda1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 8030980
+MD5Sum: 13f8176b4737bbed3f265fd8ff192bdc
+
+Package: tsduck
+Source: tsduck
+Version: 3.44-4676.raspbian13
+Maintainer: Thierry Lelegard <thierry@lelegard.fr>
+Architecture: armv7ahf-neon
+Section: free/video
+Priority: optional
+Depends: libssl3t64, librist4, libedit2, libpcsclite1
+Description: MPEG Transport Stream Toolkit
+ TSDuck, the MPEG Transport Stream Toolkit, provides some simple utilities to
+ process MPEG Transport Streams (TS), either as recorded files or live streams.
+ .
+ Repackaged from the upstream Raspbian/Debian trixie (armhf) .deb for OpenATV
+ armv7ahf-neon (dm900). Depends only lists the libraries also repackaged here
+ as .ipk (libssl3t64, librist4, libedit2, libpcsclite1, and their own transitive
+ deps: libatomic1, libcjson1, libmbedcrypto16/libmbedx509-7/libmbedtls21,
+ libbsd0, libmd0, libtinfo6) - install those first. libc6, libstdc++6, libzstd1,
+ zlib1g, libusb-1.0-0 and libsrt1.5-openssl were already present on this box
+ and are intentionally not listed since no matching opkg package exists for them.
+Filename: tsduck_3.44-4676.raspbian13_armv7ahf-neon.ipk
+Size: 10166686
+MD5Sum: c8012563d89de08028fb0481056d7aa7
+
