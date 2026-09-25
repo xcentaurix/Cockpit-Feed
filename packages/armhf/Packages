@@ -1,0 +1,1697 @@
+Package: brotli
+Version: 1.2.0-r0
+Description: Lossless compression library and tool
+ Brotli is a generic-purpose lossless compression algorithm that it is
+ similar in speed to deflate but offers more dense compression.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: brotli
+Homepage: https://github.com/google/brotli
+Depends: libc6 (>= 2.43+git0+ce1013a197)
+Source: brotli_1.2.0.bb
+Filename: brotli_1.2.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 345928
+MD5Sum: badf2bb394e452c26fb52c1f8f908d95
+
+Package: directfb
+Version: 1.7.7-r0
+Description: Graphics abstraction library for the Linux Framebuffer Device
+ DirectFB is a thin library that provides developers with hardware
+ graphics acceleration, input device handling and abstraction, an
+ integrated windowing system with support for translucent windows and
+ multiple display layers on top of the Linux framebuffer device.
+Section: libs
+Priority: optional
+Maintainer: OpenViX
+License: LGPL-2.1-only
+Architecture: dm900
+OE: directfb
+Homepage: http://directfb.org
+Depends: libc6 (>= 2.43+git0+ce1013a197), libfreetype6 (>= 2.14.3), libgcc1 (>= 15.2.0), libjpeg62 (>= 3.1.3), libpng16-16 (>= 1.6.56), libstdc++6 (>= 15.2.0), libz1 (>= 1.3.2)
+Source: directfb_1.7.7.bb
+Filename: directfb_1.7.7-r0_dm900.ipk
+Size: 1021056
+MD5Sum: df7b5e9c0227d4866c14fe260f90de48
+
+Package: enigma2-plugin-extensions-wpehbbtv-dbg
+Version: 1.0-r18
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Debugging files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: glib-2.0-dbg, glibc-dbg, orb-dbg, wpewebkit-dbg
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dbg_1.0-r18_cortexa15hf-neon-vfpv4.ipk
+Size: 74150
+MD5Sum: db84d7df7e6aa3d883f8a89ab82c115d
+
+Package: enigma2-plugin-extensions-wpehbbtv-dbg
+Version: 1.0-r19
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Debugging files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: glib-2.0-dbg, glibc-dbg, orb-dbg, wpewebkit-dbg
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dbg_1.0-r19_cortexa15hf-neon-vfpv4.ipk
+Size: 80256
+MD5Sum: 3533b5e7e83a3218e4fba392faf74911
+
+Package: enigma2-plugin-extensions-wpehbbtv-dbg
+Version: 1.0-r20
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Debugging files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: glib-2.0-dbg, glibc-dbg, orb-dbg, wpewebkit-dbg
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dbg_1.0-r20_cortexa15hf-neon-vfpv4.ipk
+Size: 80678
+MD5Sum: 1df062d82ff02e56573240143ebe3b82
+
+Package: enigma2-plugin-extensions-wpehbbtv-dbg
+Version: 1.0-r21
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Debugging files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: glib-2.0-dbg, glibc-dbg, orb-dbg, wpewebkit-dbg
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dbg_1.0-r21_cortexa15hf-neon-vfpv4.ipk
+Size: 81006
+MD5Sum: dfebd8f5f90a47107508ae0b02a3ce8e
+
+Package: enigma2-plugin-extensions-wpehbbtv-dbg
+Version: 1.0-r22
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Debugging files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: glib-2.0-dbg, glibc-dbg, orb-dbg, wpewebkit-dbg
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dbg_1.0-r22_cortexa15hf-neon-vfpv4.ipk
+Size: 81312
+MD5Sum: a71b94632b63fb6e8e4f8413d2f19e27
+
+Package: enigma2-plugin-extensions-wpehbbtv-dbg
+Version: 1.0-r23
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Debugging files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains ELF symbols and related sources for debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: glib-2.0-dbg, glibc-dbg, orb-dbg, wpewebkit-dbg
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dbg_1.0-r23_cortexa15hf-neon-vfpv4.ipk
+Size: 82132
+MD5Sum: b98905e052bdb9396bc69735b7366f09
+
+Package: enigma2-plugin-extensions-wpehbbtv-dev
+Version: 1.0-r18
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Development files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: enigma2-plugin-extensions-wpehbbtv (= 1.0-r18), glib-2.0-dev, glibc-dev, libsoup-dev, orb-dev, wpewebkit-dev
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dev_1.0-r18_cortexa15hf-neon-vfpv4.ipk
+Size: 878
+MD5Sum: 160289cfab5f219720803be3e5a74f20
+
+Package: enigma2-plugin-extensions-wpehbbtv-dev
+Version: 1.0-r19
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Development files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: enigma2-plugin-extensions-wpehbbtv (= 1.0-r19), glib-2.0-dev, glibc-dev, libsoup-dev, orb-dev, wpewebkit-dev
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dev_1.0-r19_cortexa15hf-neon-vfpv4.ipk
+Size: 878
+MD5Sum: 97c5c10c85ab64d64bddaaac55985041
+
+Package: enigma2-plugin-extensions-wpehbbtv-dev
+Version: 1.0-r20
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Development files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: enigma2-plugin-extensions-wpehbbtv (= 1.0-r20), glib-2.0-dev, glibc-dev, libsoup-dev, orb-dev, wpewebkit-dev
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dev_1.0-r20_cortexa15hf-neon-vfpv4.ipk
+Size: 878
+MD5Sum: 659dea305fca6d8ca327d1eff0f145e9
+
+Package: enigma2-plugin-extensions-wpehbbtv-dev
+Version: 1.0-r21
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Development files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: enigma2-plugin-extensions-wpehbbtv (= 1.0-r21), glib-2.0-dev, glibc-dev, libsoup-dev, orb-dev, wpewebkit-dev
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dev_1.0-r21_cortexa15hf-neon-vfpv4.ipk
+Size: 876
+MD5Sum: 50db17c71f999b82229b38711d47ef4c
+
+Package: enigma2-plugin-extensions-wpehbbtv-dev
+Version: 1.0-r22
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Development files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: enigma2-plugin-extensions-wpehbbtv (= 1.0-r22), glib-2.0-dev, glibc-dev, libsoup-dev, orb-dev, wpewebkit-dev
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dev_1.0-r22_cortexa15hf-neon-vfpv4.ipk
+Size: 878
+MD5Sum: cb6d1583a576769586a25476399ceb6a
+
+Package: enigma2-plugin-extensions-wpehbbtv-dev
+Version: 1.0-r23
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button) - Development files
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.  This package
+ contains symbolic links, header files, and related items necessary for
+ software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Recommends: enigma2-plugin-extensions-wpehbbtv (= 1.0-r23), glib-2.0-dev, glibc-dev, libsoup-dev, orb-dev, wpewebkit-dev
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv-dev_1.0-r23_cortexa15hf-neon-vfpv4.ipk
+Size: 878
+MD5Sum: 7cd5bbf11261eccf2a5b95aab07e44fc
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r0
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 35518
+MD5Sum: 57a04e26e98d418329c8b5b75f3d0a74
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r10
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r10_cortexa15hf-neon-vfpv4.ipk
+Size: 54152
+MD5Sum: 40cd194b6df040da06dde53883c2c1c5
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r11
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r11_cortexa15hf-neon-vfpv4.ipk
+Size: 54222
+MD5Sum: 71882752fcfa6027d32e754031633160
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r12
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r12_cortexa15hf-neon-vfpv4.ipk
+Size: 54378
+MD5Sum: cb861d51528a7f988b016c2ddde63cdb
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r13
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r13_cortexa15hf-neon-vfpv4.ipk
+Size: 54412
+MD5Sum: f30bb550d22037ed8f56768fd115a8eb
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r14
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r14_cortexa15hf-neon-vfpv4.ipk
+Size: 54452
+MD5Sum: a11bc194a39333fe9a124b170b84d92e
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r18
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r18_cortexa15hf-neon-vfpv4.ipk
+Size: 56186
+MD5Sum: 6872b5b5704a77240751f6aeba38df46
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r19
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r19_cortexa15hf-neon-vfpv4.ipk
+Size: 59380
+MD5Sum: 9167894fa5481cdf25103e0867694cff
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r1
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 38886
+MD5Sum: cb83bc0796181688c5257e4139cb29ae
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r20
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r20_cortexa15hf-neon-vfpv4.ipk
+Size: 59476
+MD5Sum: f640314b34f31c058e5baeb464acff01
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r21
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r21_cortexa15hf-neon-vfpv4.ipk
+Size: 59730
+MD5Sum: 822011a17d7e9a46f96d36373d46e8c9
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r22
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r22_cortexa15hf-neon-vfpv4.ipk
+Size: 59932
+MD5Sum: 1ae8c16af45c4765c53f58473127e63d
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r23
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r23_cortexa15hf-neon-vfpv4.ipk
+Size: 60242
+MD5Sum: 5108913e18f620fde26ec237a38b4a99
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r2
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r2_cortexa15hf-neon-vfpv4.ipk
+Size: 39772
+MD5Sum: 63afbb45d4cdf43a95a9d13c8e90c3f7
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r3
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 40488
+MD5Sum: 14eabdd9a574fd90614ce28761abd2e1
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r4
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r2), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r4_cortexa15hf-neon-vfpv4.ipk
+Size: 43444
+MD5Sum: c6bc72333f0db26eabccc4b4b43b499b
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r5
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r2), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r5_cortexa15hf-neon-vfpv4.ipk
+Size: 43114
+MD5Sum: 276dae67d2bc7a8c68f1a6e398e1c603
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r7
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r3), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r7_cortexa15hf-neon-vfpv4.ipk
+Size: 48500
+MD5Sum: 79ae1ad07034070e89a7cebf2dab501e
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r8
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r3), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r8_cortexa15hf-neon-vfpv4.ipk
+Size: 48566
+MD5Sum: 158eaeed0a0f6e78fce74bb896948e38
+
+Package: enigma2-plugin-extensions-wpehbbtv
+Version: 1.0-r9
+Description: HbbTV 2.0 for enigma2 (WPE WebKit + Open Red Button)
+ Runs HbbTV applications on top of enigma2: wpe_fb renders them with WPE
+ WebKit onto the framebuffer, the Open Red Button engine provides the
+ HbbTV/OIPF objects, and <video> plays on the hardware video plane through
+ dvbvideosink. The plugin forwards the remote control to the application
+ and hands the decoder over from the live service and back.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: enigma2-plugin-extensions-wpehbbtv
+Homepage: https://github.com/xcentaurix/hbbtv2
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libwpewebkit-2.0-1 (>= 2.54.0), orb (>= 1.0+git385+8945a130+8945a1301c-r4), orb (>= 1.0+git385+8945a130+8945a1301c)
+Source: enigma2-plugin-extensions-wpehbbtv_1.0.bb
+Filename: enigma2-plugin-extensions-wpehbbtv_1.0-r9_cortexa15hf-neon-vfpv4.ipk
+Size: 52660
+MD5Sum: 81140b2830bfeeac35ba47c413cbdf24
+
+Package: gstreamer1.0-plugins-base-gio
+Version: 1.28.4-r0
+Description: GStreamer 1.0 plugin for gio
+ GStreamer 1.0 plugin for gio
+Section: multimedia
+Priority: optional
+Maintainer: OpenViX
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-base
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0)
+Source: gstreamer1.0-plugins-base_1.28.2.bb
+Filename: gstreamer1.0-plugins-base-gio_1.28.4-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 18960
+MD5Sum: c1dd01a0d850bc5dac0167a241e20db2
+
+Package: gstreamer1.0-plugins-base-volume
+Version: 1.28.4-r0
+Description: GStreamer 1.0 plugin for volume
+ GStreamer 1.0 plugin for volume
+Section: multimedia
+Priority: optional
+Maintainer: OpenViX
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-base
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libgstaudio-1.0-0 (>= 1.28.4), liborc-0.4-0 (>= 0.4.42)
+Source: gstreamer1.0-plugins-base_1.28.2.bb
+Filename: gstreamer1.0-plugins-base-volume_1.28.4-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 12828
+MD5Sum: 301d035670e00606ed1d08826a545f26
+
+Package: gstreamer1.0-plugins-good-audiofx
+Version: 1.28.3-r0
+Description: GStreamer 1.0 plugin for audiofx
+ GStreamer 1.0 plugin for audiofx
+Section: multimedia
+Priority: optional
+Maintainer: OpenViX
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-good
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libgstaudio-1.0-0 (>= 1.28.4), libgstfft-1.0-0 (>= 1.28.4), liborc-0.4-0 (>= 0.4.42)
+Source: gstreamer1.0-plugins-good_1.28.2.bb
+Filename: gstreamer1.0-plugins-good-audiofx_1.28.3-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 53656
+MD5Sum: 7fe58de0e63305985686609122f75777
+
+Package: gstreamer1.0-plugins-good-deinterlace
+Version: 1.28.3-r0
+Description: GStreamer 1.0 plugin for deinterlace
+ GStreamer 1.0 plugin for deinterlace
+Section: multimedia
+Priority: optional
+Maintainer: OpenViX
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-good
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libgstvideo-1.0-0 (>= 1.28.4), liborc-0.4-0 (>= 0.4.42)
+Source: gstreamer1.0-plugins-good_1.28.2.bb
+Filename: gstreamer1.0-plugins-good-deinterlace_1.28.3-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 51440
+MD5Sum: 6d01c55b1ea973c18553eae72d5e1f04
+
+Package: gstreamer1.0-plugins-good-interleave
+Version: 1.28.3-r0
+Description: GStreamer 1.0 plugin for interleave
+ GStreamer 1.0 plugin for interleave
+Section: multimedia
+Priority: optional
+Maintainer: OpenViX
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-good
+Homepage: https://gstreamer.freedesktop.org/
+Depends: gstreamer1.0 (>= 1.28.3), libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libgstaudio-1.0-0 (>= 1.28.4)
+Source: gstreamer1.0-plugins-good_1.28.2.bb
+Filename: gstreamer1.0-plugins-good-interleave_1.28.3-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 20006
+MD5Sum: 12184a9788bef16c2015f761bfde9a07
+
+Package: libcairo2
+Version: 1.17.4-r0
+Description: The Cairo 2D vector graphics library
+ Cairo is a multi-platform library providing anti-aliased vector-based
+ rendering for multiple target backends. Paths consist of line segments
+ and cubic splines and can be rendered at any width with various join and
+ cap styles. All colors may be specified with optional translucence
+ (opacity/alpha) and combined using the extended Porter/Duff compositing
+ algebra as found in the X Render Extension.
+Section: libs
+Priority: optional
+Maintainer: OpenViX
+License: MPL-1.1 | LGPL-2.1-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: cairo
+Homepage: https://cairographics.org
+Depends: directfb (>= 1.7.7), libc6 (>= 2.43+git0+ce1013a197), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.14.3), libpixman-1-0 (>= 0.46.4), libpng16-16 (>= 1.6.56), libx11-6 (>= 1.8.13), libxcb-render0 (>= 1.17.0), libxcb-shm0 (>= 1.17.0), libxcb1 (>= 1.17.0), libxext6 (>= 1.3.7), libxrender1 (>= 0.9.12), libz1 (>= 1.3.2)
+Provides: cairo
+Source: cairo_1.17.4.bb
+Filename: libcairo2_1.17.4-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 453860
+MD5Sum: d0c0dcb84f36f4a2eec0bb632af57538
+
+Package: libepoxy0
+Version: 1.5.10-r0
+Description: OpenGL function pointer management library
+ It hides the complexity of dlopen(), dlsym(), glXGetProcAddress(),
+ eglGetProcAddress(), etc. from the app developer, with very little
+ knowledge needed on their part. They get to read GL specs and write code
+ using undecorated function names like glCompileShader().
+Section: libs
+Priority: optional
+Maintainer: OpenViX
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: libepoxy
+Homepage: https://github.com/anholt/libepoxy/
+Depends: libc6 (>= 2.43+git0+ce1013a197)
+Provides: libepoxy
+Source: libepoxy_1.5.10.bb
+Filename: libepoxy0_1.5.10-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 206804
+MD5Sum: 9bd4f6ee770b75038e32ea3a8471f3d3
+
+Package: libfontconfig1
+Version: 2.17.1-r0
+Description: Generic font configuration library
+ Fontconfig is a font configuration and customization library, which does
+ not depend on the X Window System. It is designed to locate fonts within
+ the system and select them according to requirements specified by
+ applications. Fontconfig is not a rasterization library, nor does it
+ impose a particular rasterization library on the application. The
+ X-specific library 'Xft' uses fontconfig along with freetype to specify
+ and rasterize fonts.
+Section: libs
+Priority: optional
+Maintainer: OpenViX
+License: MIT & PD
+Architecture: cortexa15hf-neon-vfpv4
+OE: fontconfig
+Homepage: http://www.fontconfig.org
+Depends: libc6 (>= 2.43+git0+ce1013a197), libexpat1 (>= 2.8.0), libfreetype6 (>= 2.14.3)
+Provides: fontconfig
+Source: fontconfig_2.17.1.bb
+Filename: libfontconfig1_2.17.1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 139214
+MD5Sum: 0350f98473a07a0b7f6d7b4057680eb7
+
+Package: libgstfft-1.0-0
+Version: 1.28.4-r0
+Description: GStreamer 1.0 gstfft-1.0 library
+ GStreamer 1.0 gstfft-1.0 library
+Section: multimedia
+Priority: optional
+Maintainer: OpenViX
+License: LGPL-2.1-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: gstreamer1.0-plugins-base
+Homepage: https://gstreamer.freedesktop.org/
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0)
+Provides: libgstfft-1.0
+Source: gstreamer1.0-plugins-base_1.28.2.bb
+Filename: libgstfft-1.0-0_1.28.4-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 15802
+MD5Sum: b3e97ebd16583136516fa1dba75be0ac
+
+Package: libharfbuzz-icu0
+Version: 12.3.2-r0
+Description: Text shaping library
+ HarfBuzz is an OpenType text shaping engine.
+Section: libs
+Priority: optional
+Maintainer: OpenViX
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: harfbuzz
+Homepage: http://www.freedesktop.org/wiki/Software/HarfBuzz
+Depends: libc6 (>= 2.43+git0+ce1013a197), libharfbuzz0 (>= 12.3.2), libicuuc78 (>= 78.3)
+Provides: harfbuzz-icu
+Source: harfbuzz_12.3.2.bb
+Filename: libharfbuzz-icu0_12.3.2-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 3842
+MD5Sum: b8e498e97edf2dc6fee27a8242d5d391
+
+Package: libharfbuzz0
+Version: 12.3.2-r0
+Description: Text shaping library
+ HarfBuzz is an OpenType text shaping engine.
+Section: libs
+Priority: optional
+Maintainer: OpenViX
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: harfbuzz
+Homepage: http://www.freedesktop.org/wiki/Software/HarfBuzz
+Depends: libc6 (>= 2.43+git0+ce1013a197), libcairo2 (>= 1.17.4), libfreetype6 (>= 2.14.3), libglib-2.0-0 (>= 2.88.0)
+Provides: harfbuzz
+Source: harfbuzz_12.3.2.bb
+Filename: libharfbuzz0_12.3.2-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 439394
+MD5Sum: 96e8174f7eb393afb25df30a14f02fac
+
+Package: libicudata78
+Version: 78.3-r0
+Description: International Component for Unicode libraries
+ The International Component for Unicode (ICU) is a mature, portable set
+ of C/C++ and Java libraries for Unicode support, software
+ internationalization (I18N) and globalization (G11N), giving applications
+ the same results on all platforms.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: ICU & MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: icu
+Homepage: https://icu.unicode.org/
+Depends: libc6 (>= 2.43+git0+ce1013a197)
+Provides: libicudata
+Source: icu_78.3.bb
+Filename: libicudata78_78.3-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 11727358
+MD5Sum: 097d6cca6b1e783696406ea8ce22573b
+
+Package: libicui18n78
+Version: 78.3-r0
+Description: International Component for Unicode libraries
+ The International Component for Unicode (ICU) is a mature, portable set
+ of C/C++ and Java libraries for Unicode support, software
+ internationalization (I18N) and globalization (G11N), giving applications
+ the same results on all platforms.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: ICU & MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: icu
+Homepage: https://icu.unicode.org/
+Depends: libc6 (>= 2.43+git0+ce1013a197), libgcc1 (>= 15.2.0), libicudata78 (>= 78.3), libicuuc78 (>= 78.3), libstdc++6 (>= 15.2.0)
+Provides: libicui18n
+Source: icu_78.3.bb
+Filename: libicui18n78_78.3-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 1111218
+MD5Sum: ef4f65c0181d09bd868896f48bbf705c
+
+Package: libicuuc78
+Version: 78.3-r0
+Description: International Component for Unicode libraries
+ The International Component for Unicode (ICU) is a mature, portable set
+ of C/C++ and Java libraries for Unicode support, software
+ internationalization (I18N) and globalization (G11N), giving applications
+ the same results on all platforms.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: ICU & MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: icu
+Homepage: https://icu.unicode.org/
+Depends: libc6 (>= 2.43+git0+ce1013a197), libgcc1 (>= 15.2.0), libicudata78 (>= 78.3), libstdc++6 (>= 15.2.0)
+Provides: libicuuc
+Source: icu_78.3.bb
+Filename: libicuuc78_78.3-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 717016
+MD5Sum: a5ec4f5eedba83f1ad151be0ae5953f2
+
+Package: libnghttp2-14
+Version: 1.68.1-r0
+Description: HTTP/2 C Library and tools
+ HTTP/2 C Library and tools.
+Section: libs
+Priority: optional
+Maintainer: OpenViX
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: nghttp2
+Homepage: https://nghttp2.org/
+Depends: libc6 (>= 2.43+git0+ce1013a197)
+Provides: nghttp2
+Source: nghttp2_1.68.1.bb
+Filename: libnghttp2-14_1.68.1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 76092
+MD5Sum: 4c4c47e1141bc7ff68a97e014d03c48b
+
+Package: libpixman-1-0
+Version: 1:0.46.4-r0
+Description: Pixman: Pixel Manipulation library
+ Pixman provides a library for manipulating pixel regions -- a set of Y-X
+ banded rectangles, image compositing using the Porter/Duff model and
+ implicit mask generation for geometric primitives including trapezoids,
+ triangles, and rectangles.
+Section: x11/libs
+Priority: optional
+Maintainer: OpenViX
+License: MIT & PD
+Architecture: cortexa15hf-neon-vfpv4
+OE: pixman
+Homepage: http://www.pixman.org
+Depends: libc6 (>= 2.43+git0+ce1013a197)
+Provides: pixman
+Source: pixman_0.46.4.bb
+Filename: libpixman-1-0_0.46.4-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 183642
+MD5Sum: 27e9536f33e7fce39d62d28f0eca1991
+
+Package: libsoup
+Version: 3.6.6-r0
+Description: An HTTP library implementation in C
+ libsoup is an HTTP client/server library for GNOME. It uses GObjects and
+ the glib main loop, to integrate well with GNOME applications.
+Section: x11/gnome/libs
+Priority: optional
+Maintainer: OpenViX
+License: LGPL-2.0-only
+Architecture: cortexa15hf-neon-vfpv4
+OE: libsoup
+Homepage: https://wiki.gnome.org/Projects/libsoup
+Depends: libc6 (>= 2.43+git0+ce1013a197), libglib-2.0-0 (>= 2.88.0), libnghttp2-14 (>= 1.68.1), libpsl5 (>= 0.21.5), libsqlite3-0 (>= 3.53.0), libz1 (>= 1.3.2)
+Recommends: glib-networking
+Source: libsoup_3.6.6.bb
+Filename: libsoup_3.6.6-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 228732
+MD5Sum: 333889469b76cb99d1e756dfe33db1bc
+
+Package: libwpewebkit-2.0-1
+Version: 2.54.0-r0
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: gstreamer1.0 (>= 1.28.3), gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-good-audiofx, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-deinterlace, gstreamer1.0-plugins-good-interleave, gstreamer1.0-plugins-good-isomp4, libc6 (>= 2.43+git0+ce1013a197), libepoxy0 (>= 1.5.10), libexpat1 (>= 2.8.0), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.14.3), libgcc1 (>= 15.2.0), libgcrypt (>= 1.12.1), libgles2, libglib-2.0-0 (>= 2.88.0), libgstapp-1.0-0 (>= 1.28.4), libgstaudio-1.0-0 (>= 1.28.4), libgstpbutils-1.0-0 (>= 1.28.4), libgsttag-1.0-0 (>= 1.28.4), libgstvideo-1.0-0 (>= 1.28.4), libharfbuzz-icu0 (>= 12.3.2), libharfbuzz0 (>= 12.3.2), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libjpeg62 (>= 3.1.3), libpng16-16 (>= 1.6.56), libsoup (>= 3.6.6), libsqlite3-0 (>= 3.53.0), libstdc++6 (>= 15.2.0), libtasn1-6 (>= 4.21.0), libwebp (>= 1.6.0), libxkbcommon0 (>= 1.13.1), libxml2 (>= 2.15.2), libxslt (>= 1.1.45), libz1 (>= 1.3.2), woff2 (>= 1.0.2), wpewebkit-web-inspector-plugin
+Recommends: ca-certificates, gstreamer1.0-plugins-bad-meta, gstreamer1.0-plugins-base-meta, gstreamer1.0-plugins-good-meta, ttf-dejavu-sans, ttf-dejavu-sans-mono, ttf-dejavu-serif, wpewebkit-qtwpe-qml-plugin
+Provides: wpewebkit
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-1_2.54.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 22085932
+MD5Sum: 9823ed8ce7051c757ed0af45e0f23666
+
+Package: libwpewebkit-2.0-1
+Version: 2.54.0-r10
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: gstreamer1.0 (>= 1.28.3), gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-good-audiofx, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-deinterlace, gstreamer1.0-plugins-good-interleave, gstreamer1.0-plugins-good-isomp4, libc6 (>= 2.43+git0+ce1013a197), libepoxy0 (>= 1.5.10), libexpat1 (>= 2.8.0), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.14.3), libgcc1 (>= 15.2.0), libgcrypt (>= 1.12.1), libgles2, libglib-2.0-0 (>= 2.88.0), libgstapp-1.0-0 (>= 1.28.4), libgstaudio-1.0-0 (>= 1.28.4), libgstpbutils-1.0-0 (>= 1.28.4), libgsttag-1.0-0 (>= 1.28.4), libgstvideo-1.0-0 (>= 1.28.4), libharfbuzz-icu0 (>= 12.3.2), libharfbuzz0 (>= 12.3.2), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libjpeg62 (>= 3.1.3), libpng16-16 (>= 1.6.56), libsoup (>= 3.6.6), libsqlite3-0 (>= 3.53.0), libstdc++6 (>= 15.2.0), libtasn1-6 (>= 4.21.0), libwebp (>= 1.6.0), libxkbcommon0 (>= 1.13.1), libxml2 (>= 2.15.2), libxslt (>= 1.1.45), libz1 (>= 1.3.2), woff2 (>= 1.0.2), wpewebkit-web-inspector-plugin
+Recommends: ca-certificates, gstreamer1.0-plugins-bad-meta, gstreamer1.0-plugins-base-meta, gstreamer1.0-plugins-good-meta, ttf-dejavu-sans, ttf-dejavu-sans-mono, ttf-dejavu-serif, wpewebkit-qtwpe-qml-plugin
+Provides: wpewebkit
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-1_2.54.0-r10_cortexa15hf-neon-vfpv4.ipk
+Size: 22094632
+MD5Sum: 1572114783b5784f2b10d0a6599d5daf
+
+Package: libwpewebkit-2.0-1
+Version: 2.54.0-r1
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: gstreamer1.0 (>= 1.28.3), gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-good-audiofx, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-deinterlace, gstreamer1.0-plugins-good-interleave, gstreamer1.0-plugins-good-isomp4, libc6 (>= 2.43+git0+ce1013a197), libepoxy0 (>= 1.5.10), libexpat1 (>= 2.8.0), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.14.3), libgcc1 (>= 15.2.0), libgcrypt (>= 1.12.1), libgles2, libglib-2.0-0 (>= 2.88.0), libgstapp-1.0-0 (>= 1.28.4), libgstaudio-1.0-0 (>= 1.28.4), libgstpbutils-1.0-0 (>= 1.28.4), libgsttag-1.0-0 (>= 1.28.4), libgstvideo-1.0-0 (>= 1.28.4), libharfbuzz-icu0 (>= 12.3.2), libharfbuzz0 (>= 12.3.2), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libjpeg62 (>= 3.1.3), libpng16-16 (>= 1.6.56), libsoup (>= 3.6.6), libsqlite3-0 (>= 3.53.0), libstdc++6 (>= 15.2.0), libtasn1-6 (>= 4.21.0), libwebp (>= 1.6.0), libxkbcommon0 (>= 1.13.1), libxml2 (>= 2.15.2), libxslt (>= 1.1.45), libz1 (>= 1.3.2), woff2 (>= 1.0.2), wpewebkit-web-inspector-plugin
+Recommends: ca-certificates, gstreamer1.0-plugins-bad-meta, gstreamer1.0-plugins-base-meta, gstreamer1.0-plugins-good-meta, ttf-dejavu-sans, ttf-dejavu-sans-mono, ttf-dejavu-serif, wpewebkit-qtwpe-qml-plugin
+Provides: wpewebkit
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-1_2.54.0-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 22089480
+MD5Sum: ff7c9f267d1b00de353e66e61629e2a9
+
+Package: libwpewebkit-2.0-1
+Version: 2.54.0-r7
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: gstreamer1.0 (>= 1.28.3), gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-good-audiofx, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-deinterlace, gstreamer1.0-plugins-good-interleave, gstreamer1.0-plugins-good-isomp4, libc6 (>= 2.43+git0+ce1013a197), libepoxy0 (>= 1.5.10), libexpat1 (>= 2.8.0), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.14.3), libgcc1 (>= 15.2.0), libgcrypt (>= 1.12.1), libgles2, libglib-2.0-0 (>= 2.88.0), libgstapp-1.0-0 (>= 1.28.4), libgstaudio-1.0-0 (>= 1.28.4), libgstpbutils-1.0-0 (>= 1.28.4), libgsttag-1.0-0 (>= 1.28.4), libgstvideo-1.0-0 (>= 1.28.4), libharfbuzz-icu0 (>= 12.3.2), libharfbuzz0 (>= 12.3.2), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libjpeg62 (>= 3.1.3), libpng16-16 (>= 1.6.56), libsoup (>= 3.6.6), libsqlite3-0 (>= 3.53.0), libstdc++6 (>= 15.2.0), libtasn1-6 (>= 4.21.0), libwebp (>= 1.6.0), libxkbcommon0 (>= 1.13.1), libxml2 (>= 2.15.2), libxslt (>= 1.1.45), libz1 (>= 1.3.2), woff2 (>= 1.0.2), wpewebkit-web-inspector-plugin
+Recommends: ca-certificates, gstreamer1.0-plugins-bad-meta, gstreamer1.0-plugins-base-meta, gstreamer1.0-plugins-good-meta, ttf-dejavu-sans, ttf-dejavu-sans-mono, ttf-dejavu-serif, wpewebkit-qtwpe-qml-plugin
+Provides: wpewebkit
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-1_2.54.0-r7_cortexa15hf-neon-vfpv4.ipk
+Size: 22089390
+MD5Sum: 57882511ddcc5c7999b945dfbe0de521
+
+Package: libwpewebkit-2.0-1
+Version: 2.54.0-r8
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: gstreamer1.0 (>= 1.28.3), gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-good-audiofx, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-deinterlace, gstreamer1.0-plugins-good-interleave, gstreamer1.0-plugins-good-isomp4, libc6 (>= 2.43+git0+ce1013a197), libepoxy0 (>= 1.5.10), libexpat1 (>= 2.8.0), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.14.3), libgcc1 (>= 15.2.0), libgcrypt (>= 1.12.1), libgles2, libglib-2.0-0 (>= 2.88.0), libgstapp-1.0-0 (>= 1.28.4), libgstaudio-1.0-0 (>= 1.28.4), libgstpbutils-1.0-0 (>= 1.28.4), libgsttag-1.0-0 (>= 1.28.4), libgstvideo-1.0-0 (>= 1.28.4), libharfbuzz-icu0 (>= 12.3.2), libharfbuzz0 (>= 12.3.2), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libjpeg62 (>= 3.1.3), libpng16-16 (>= 1.6.56), libsoup (>= 3.6.6), libsqlite3-0 (>= 3.53.0), libstdc++6 (>= 15.2.0), libtasn1-6 (>= 4.21.0), libwebp (>= 1.6.0), libxkbcommon0 (>= 1.13.1), libxml2 (>= 2.15.2), libxslt (>= 1.1.45), libz1 (>= 1.3.2), woff2 (>= 1.0.2), wpewebkit-web-inspector-plugin
+Recommends: ca-certificates, gstreamer1.0-plugins-bad-meta, gstreamer1.0-plugins-base-meta, gstreamer1.0-plugins-good-meta, ttf-dejavu-sans, ttf-dejavu-sans-mono, ttf-dejavu-serif, wpewebkit-qtwpe-qml-plugin
+Provides: wpewebkit
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-1_2.54.0-r8_cortexa15hf-neon-vfpv4.ipk
+Size: 22087754
+MD5Sum: c731a230e9456ec70c39c24a50e6788e
+
+Package: libwpewebkit-2.0-1
+Version: 2.54.0-r9
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: gstreamer1.0 (>= 1.28.3), gstreamer1.0-plugins-base-app, gstreamer1.0-plugins-base-audioconvert, gstreamer1.0-plugins-base-audioresample, gstreamer1.0-plugins-base-gio, gstreamer1.0-plugins-base-playback, gstreamer1.0-plugins-base-typefindfunctions, gstreamer1.0-plugins-base-videoconvertscale, gstreamer1.0-plugins-base-volume, gstreamer1.0-plugins-good-audiofx, gstreamer1.0-plugins-good-audioparsers, gstreamer1.0-plugins-good-autodetect, gstreamer1.0-plugins-good-avi, gstreamer1.0-plugins-good-deinterlace, gstreamer1.0-plugins-good-interleave, gstreamer1.0-plugins-good-isomp4, libc6 (>= 2.43+git0+ce1013a197), libepoxy0 (>= 1.5.10), libexpat1 (>= 2.8.0), libfontconfig1 (>= 2.17.1), libfreetype6 (>= 2.14.3), libgcc1 (>= 15.2.0), libgcrypt (>= 1.12.1), libgles2, libglib-2.0-0 (>= 2.88.0), libgstapp-1.0-0 (>= 1.28.4), libgstaudio-1.0-0 (>= 1.28.4), libgstpbutils-1.0-0 (>= 1.28.4), libgsttag-1.0-0 (>= 1.28.4), libgstvideo-1.0-0 (>= 1.28.4), libharfbuzz-icu0 (>= 12.3.2), libharfbuzz0 (>= 12.3.2), libicui18n78 (>= 78.3), libicuuc78 (>= 78.3), libjpeg62 (>= 3.1.3), libpng16-16 (>= 1.6.56), libsoup (>= 3.6.6), libsqlite3-0 (>= 3.53.0), libstdc++6 (>= 15.2.0), libtasn1-6 (>= 4.21.0), libwebp (>= 1.6.0), libxkbcommon0 (>= 1.13.1), libxml2 (>= 2.15.2), libxslt (>= 1.1.45), libz1 (>= 1.3.2), woff2 (>= 1.0.2), wpewebkit-web-inspector-plugin
+Recommends: ca-certificates, gstreamer1.0-plugins-bad-meta, gstreamer1.0-plugins-base-meta, gstreamer1.0-plugins-good-meta, ttf-dejavu-sans, ttf-dejavu-sans-mono, ttf-dejavu-serif, wpewebkit-qtwpe-qml-plugin
+Provides: wpewebkit
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-1_2.54.0-r9_cortexa15hf-neon-vfpv4.ipk
+Size: 22088172
+MD5Sum: ace4263000d1aca26c436b27f8a042fe
+
+Package: libwpewebkit-2.0-dbg
+Version: 2.54.0-r10
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration - Debugging files
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Recommends: expat-dbg, fontconfig-dbg, freetype-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, harfbuzz-dbg, harfbuzz-icu-dbg, libepoxy-dbg, libgcc-dbg, libgcrypt-dbg, libgstapp-1.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libicui18n-dbg, libicuuc-dbg, libjpeg-turbo-dbg, libpng-dbg, libsoup-dbg, libsqlite3-dbg, libstdc++-dbg, libtasn1-dbg, libwebp-dbg, libxkbcommon-dbg, libxml2-dbg, libxslt-dbg, woff2-dbg, zlib-dbg
+Provides: wpewebkit-dbg
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-dbg_2.54.0-r10_cortexa15hf-neon-vfpv4.ipk
+Size: 9497190
+MD5Sum: a7c34a2565885ff46f2b51e194d23f41
+
+Package: libwpewebkit-2.0-dbg
+Version: 2.54.0-r7
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration - Debugging files
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Recommends: expat-dbg, fontconfig-dbg, freetype-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, harfbuzz-dbg, harfbuzz-icu-dbg, libepoxy-dbg, libgcc-dbg, libgcrypt-dbg, libgstapp-1.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libicui18n-dbg, libicuuc-dbg, libjpeg-turbo-dbg, libpng-dbg, libsoup-dbg, libsqlite3-dbg, libstdc++-dbg, libtasn1-dbg, libwebp-dbg, libxkbcommon-dbg, libxml2-dbg, libxslt-dbg, woff2-dbg, zlib-dbg
+Provides: wpewebkit-dbg
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-dbg_2.54.0-r7_cortexa15hf-neon-vfpv4.ipk
+Size: 9495318
+MD5Sum: 9bb25621267adb19a87df2710a3367f4
+
+Package: libwpewebkit-2.0-dbg
+Version: 2.54.0-r8
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration - Debugging files
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Recommends: expat-dbg, fontconfig-dbg, freetype-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, harfbuzz-dbg, harfbuzz-icu-dbg, libepoxy-dbg, libgcc-dbg, libgcrypt-dbg, libgstapp-1.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libicui18n-dbg, libicuuc-dbg, libjpeg-turbo-dbg, libpng-dbg, libsoup-dbg, libsqlite3-dbg, libstdc++-dbg, libtasn1-dbg, libwebp-dbg, libxkbcommon-dbg, libxml2-dbg, libxslt-dbg, woff2-dbg, zlib-dbg
+Provides: wpewebkit-dbg
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-dbg_2.54.0-r8_cortexa15hf-neon-vfpv4.ipk
+Size: 9497256
+MD5Sum: c4d992507e9de72b9f52ce73d68b8cf9
+
+Package: libwpewebkit-2.0-dbg
+Version: 2.54.0-r9
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration - Debugging files
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.  This package contains ELF symbols and related sources for
+ debugging purposes.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Recommends: expat-dbg, fontconfig-dbg, freetype-dbg, glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, harfbuzz-dbg, harfbuzz-icu-dbg, libepoxy-dbg, libgcc-dbg, libgcrypt-dbg, libgstapp-1.0-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgsttag-1.0-dbg, libgstvideo-1.0-dbg, libicui18n-dbg, libicuuc-dbg, libjpeg-turbo-dbg, libpng-dbg, libsoup-dbg, libsqlite3-dbg, libstdc++-dbg, libtasn1-dbg, libwebp-dbg, libxkbcommon-dbg, libxml2-dbg, libxslt-dbg, woff2-dbg, zlib-dbg
+Provides: wpewebkit-dbg
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-dbg_2.54.0-r9_cortexa15hf-neon-vfpv4.ipk
+Size: 9496084
+MD5Sum: 1ec7acc61d059b14e860415fe153b05a
+
+Package: libwpewebkit-2.0-dev
+Version: 2.54.0-r10
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration - Development files
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: glib-2.0-dev, libsoup-dev, wpewebkit
+Recommends: expat-dev, fontconfig-dev, freetype-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-app-dev, gstreamer1.0-plugins-base-audioconvert-dev, gstreamer1.0-plugins-base-audioresample-dev, gstreamer1.0-plugins-base-dev, gstreamer1.0-plugins-base-gio-dev, gstreamer1.0-plugins-base-playback-dev, gstreamer1.0-plugins-base-typefindfunctions-dev, gstreamer1.0-plugins-base-videoconvertscale-dev, gstreamer1.0-plugins-base-volume-dev, gstreamer1.0-plugins-good-audiofx-dev, gstreamer1.0-plugins-good-audioparsers-dev, gstreamer1.0-plugins-good-autodetect-dev, gstreamer1.0-plugins-good-avi-dev, gstreamer1.0-plugins-good-deinterlace-dev, gstreamer1.0-plugins-good-dev, gstreamer1.0-plugins-good-interleave-dev, gstreamer1.0-plugins-good-isomp4-dev, harfbuzz-dev, harfbuzz-icu-dev, icu-dev, jpeg-dev, libepoxy-dev, libgcc-dev, libgcrypt-dev, libgles2-dev, libgstapp-1.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libicui18n-dev, libicuuc-dev, libjpeg-turbo-dev, libpng-dev, libsoup-dev, libsqlite3-dev, libstdc++-dev, libtasn1-dev, libwebp-dev, libwpewebkit-2.0-1 (= 2.54.0-r10), libxkbcommon-dev, libxml2-dev, libxslt-dev, pcre-dev, shared-mime-info-dev, sqlite3-dev, woff2-dev, wpewebkit-web-inspector-plugin-dev, zlib-dev
+Provides: wpewebkit-dev
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-dev_2.54.0-r10_cortexa15hf-neon-vfpv4.ipk
+Size: 107400
+MD5Sum: a00e2b3c329463c818bf9c77ed8a8af1
+
+Package: libwpewebkit-2.0-dev
+Version: 2.54.0-r7
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration - Development files
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: glib-2.0-dev, libsoup-dev, wpewebkit
+Recommends: expat-dev, fontconfig-dev, freetype-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-app-dev, gstreamer1.0-plugins-base-audioconvert-dev, gstreamer1.0-plugins-base-audioresample-dev, gstreamer1.0-plugins-base-dev, gstreamer1.0-plugins-base-gio-dev, gstreamer1.0-plugins-base-playback-dev, gstreamer1.0-plugins-base-typefindfunctions-dev, gstreamer1.0-plugins-base-videoconvertscale-dev, gstreamer1.0-plugins-base-volume-dev, gstreamer1.0-plugins-good-audiofx-dev, gstreamer1.0-plugins-good-audioparsers-dev, gstreamer1.0-plugins-good-autodetect-dev, gstreamer1.0-plugins-good-avi-dev, gstreamer1.0-plugins-good-deinterlace-dev, gstreamer1.0-plugins-good-dev, gstreamer1.0-plugins-good-interleave-dev, gstreamer1.0-plugins-good-isomp4-dev, harfbuzz-dev, harfbuzz-icu-dev, icu-dev, jpeg-dev, libepoxy-dev, libgcc-dev, libgcrypt-dev, libgles2-dev, libgstapp-1.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libicui18n-dev, libicuuc-dev, libjpeg-turbo-dev, libpng-dev, libsoup-dev, libsqlite3-dev, libstdc++-dev, libtasn1-dev, libwebp-dev, libwpewebkit-2.0-1 (= 2.54.0-r7), libxkbcommon-dev, libxml2-dev, libxslt-dev, pcre-dev, shared-mime-info-dev, sqlite3-dev, woff2-dev, wpewebkit-web-inspector-plugin-dev, zlib-dev
+Provides: wpewebkit-dev
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-dev_2.54.0-r7_cortexa15hf-neon-vfpv4.ipk
+Size: 107400
+MD5Sum: b5f6b886c5848e7753eb699d3bbb940a
+
+Package: libwpewebkit-2.0-dev
+Version: 2.54.0-r8
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration - Development files
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: glib-2.0-dev, libsoup-dev, wpewebkit
+Recommends: expat-dev, fontconfig-dev, freetype-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-app-dev, gstreamer1.0-plugins-base-audioconvert-dev, gstreamer1.0-plugins-base-audioresample-dev, gstreamer1.0-plugins-base-dev, gstreamer1.0-plugins-base-gio-dev, gstreamer1.0-plugins-base-playback-dev, gstreamer1.0-plugins-base-typefindfunctions-dev, gstreamer1.0-plugins-base-videoconvertscale-dev, gstreamer1.0-plugins-base-volume-dev, gstreamer1.0-plugins-good-audiofx-dev, gstreamer1.0-plugins-good-audioparsers-dev, gstreamer1.0-plugins-good-autodetect-dev, gstreamer1.0-plugins-good-avi-dev, gstreamer1.0-plugins-good-deinterlace-dev, gstreamer1.0-plugins-good-dev, gstreamer1.0-plugins-good-interleave-dev, gstreamer1.0-plugins-good-isomp4-dev, harfbuzz-dev, harfbuzz-icu-dev, icu-dev, jpeg-dev, libepoxy-dev, libgcc-dev, libgcrypt-dev, libgles2-dev, libgstapp-1.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libicui18n-dev, libicuuc-dev, libjpeg-turbo-dev, libpng-dev, libsoup-dev, libsqlite3-dev, libstdc++-dev, libtasn1-dev, libwebp-dev, libwpewebkit-2.0-1 (= 2.54.0-r8), libxkbcommon-dev, libxml2-dev, libxslt-dev, pcre-dev, shared-mime-info-dev, sqlite3-dev, woff2-dev, wpewebkit-web-inspector-plugin-dev, zlib-dev
+Provides: wpewebkit-dev
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-dev_2.54.0-r8_cortexa15hf-neon-vfpv4.ipk
+Size: 107402
+MD5Sum: bb753645159e26a50ae994914797603e
+
+Package: libwpewebkit-2.0-dev
+Version: 2.54.0-r9
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration - Development files
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.  This package contains symbolic links, header files, and
+ related items necessary for software development.
+Section: devel
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: glib-2.0-dev, libsoup-dev, wpewebkit
+Recommends: expat-dev, fontconfig-dev, freetype-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-app-dev, gstreamer1.0-plugins-base-audioconvert-dev, gstreamer1.0-plugins-base-audioresample-dev, gstreamer1.0-plugins-base-dev, gstreamer1.0-plugins-base-gio-dev, gstreamer1.0-plugins-base-playback-dev, gstreamer1.0-plugins-base-typefindfunctions-dev, gstreamer1.0-plugins-base-videoconvertscale-dev, gstreamer1.0-plugins-base-volume-dev, gstreamer1.0-plugins-good-audiofx-dev, gstreamer1.0-plugins-good-audioparsers-dev, gstreamer1.0-plugins-good-autodetect-dev, gstreamer1.0-plugins-good-avi-dev, gstreamer1.0-plugins-good-deinterlace-dev, gstreamer1.0-plugins-good-dev, gstreamer1.0-plugins-good-interleave-dev, gstreamer1.0-plugins-good-isomp4-dev, harfbuzz-dev, harfbuzz-icu-dev, icu-dev, jpeg-dev, libepoxy-dev, libgcc-dev, libgcrypt-dev, libgles2-dev, libgstapp-1.0-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgsttag-1.0-dev, libgstvideo-1.0-dev, libicui18n-dev, libicuuc-dev, libjpeg-turbo-dev, libpng-dev, libsoup-dev, libsqlite3-dev, libstdc++-dev, libtasn1-dev, libwebp-dev, libwpewebkit-2.0-1 (= 2.54.0-r9), libxkbcommon-dev, libxml2-dev, libxslt-dev, pcre-dev, shared-mime-info-dev, sqlite3-dev, woff2-dev, wpewebkit-web-inspector-plugin-dev, zlib-dev
+Provides: wpewebkit-dev
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-dev_2.54.0-r9_cortexa15hf-neon-vfpv4.ipk
+Size: 107402
+MD5Sum: 411f45da3a073400f89a4d2c70c218ca
+
+Package: libwpewebkit-2.0-web-inspector-plugin
+Version: 2.54.0-r0
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: shared-mime-info
+Provides: wpewebkit-web-inspector-plugin
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-web-inspector-plugin_2.54.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 1386116
+MD5Sum: c0e97aff772c767c78e37fcbb390a867
+
+Package: libwpewebkit-2.0-web-inspector-plugin
+Version: 2.54.0-r10
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: shared-mime-info
+Provides: wpewebkit-web-inspector-plugin
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-web-inspector-plugin_2.54.0-r10_cortexa15hf-neon-vfpv4.ipk
+Size: 1386114
+MD5Sum: f95dd3830db96d6d2592a4d3fbaa1882
+
+Package: libwpewebkit-2.0-web-inspector-plugin
+Version: 2.54.0-r1
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: shared-mime-info
+Provides: wpewebkit-web-inspector-plugin
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-web-inspector-plugin_2.54.0-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 1386114
+MD5Sum: 2b03c57897f04254d779fb399f7432f1
+
+Package: libwpewebkit-2.0-web-inspector-plugin
+Version: 2.54.0-r7
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: shared-mime-info
+Provides: wpewebkit-web-inspector-plugin
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-web-inspector-plugin_2.54.0-r7_cortexa15hf-neon-vfpv4.ipk
+Size: 1386114
+MD5Sum: d44625e41bd0d477911500496cff7aec
+
+Package: libwpewebkit-2.0-web-inspector-plugin
+Version: 2.54.0-r8
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: shared-mime-info
+Provides: wpewebkit-web-inspector-plugin
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-web-inspector-plugin_2.54.0-r8_cortexa15hf-neon-vfpv4.ipk
+Size: 1386114
+MD5Sum: c495c1ddc9211986df7d16a32ea58a9b
+
+Package: libwpewebkit-2.0-web-inspector-plugin
+Version: 2.54.0-r9
+Description: Lightweight WebKit port for embedded devices with OpenGL-ES acceleration
+ WPE WebKit port pairs the WebKit engine with OpenGL-ES (OpenGL for
+ Embedded Systems),                allowing embedders to create simple and
+ performant systems based on Web platform technologies.                It
+ is designed with hardware acceleration in mind, relying on EGL, and
+ OpenGL ES.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: BSD-2-Clause & LGPL-2.0-or-later
+Architecture: cortexa15hf-neon-vfpv4
+OE: wpewebkit
+Homepage: https://wpewebkit.org/
+Depends: shared-mime-info
+Provides: wpewebkit-web-inspector-plugin
+Source: wpewebkit_2.54.0.bb
+Filename: libwpewebkit-2.0-web-inspector-plugin_2.54.0-r9_cortexa15hf-neon-vfpv4.ipk
+Size: 1386114
+MD5Sum: 960bda75e00d222b0d2861c46168de9a
+
+Package: libxcb-render0
+Version: 1.17.0-r0
+Description: XCB library module for render
+ XCB library module for render
+Section: x11/libs
+Priority: optional
+Maintainer: OpenViX
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: libxcb
+Homepage: http://xcb.freedesktop.org
+Depends: libc6 (>= 2.43+git0+ce1013a197), libxau6 (>= 1.0.12), libxcb1 (>= 1.17.0), libxdmcp6 (>= 1.1.5)
+Provides: libxcb-render
+Source: libxcb_1.17.0.bb
+Filename: libxcb-render0_1.17.0-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 13708
+MD5Sum: ea21228971b20c265de36830db247d54
+
+Package: libxkbcommon0
+Version: 1.13.1-r0
+Description: libxkbcommon library
+ libxkbcommon library
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: MIT & MIT-open-group & HPND & HPND-sell-variant & X11
+Architecture: cortexa15hf-neon-vfpv4
+OE: libxkbcommon
+Homepage: http://www.xkbcommon.org
+Depends: libc6 (>= 2.43+git0+ce1013a197)
+Recommends: libx11-locale
+Provides: libxkbcommon
+Source: libxkbcommon_1.13.1.bb
+Filename: libxkbcommon0_1.13.1-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 152444
+MD5Sum: 65d6163472d0a084099253c43e1fee92
+
+Package: libxrender1
+Version: 1:0.9.12-r0
+Description: XRender: X Rendering Extension library
+ The X Rendering Extension (Render) introduces digital image composition
+ as the foundation of a new rendering model within the X Window System.
+ Rendering geometric figures is accomplished by client-side tessellation
+ into either triangles or trapezoids.  Text is drawn by loading glyphs
+ into the server and rendering sets of them.
+Section: x11/libs
+Priority: optional
+Maintainer: OpenViX
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: libxrender
+Homepage: http://www.x.org
+Depends: libc6 (>= 2.43+git0+ce1013a197), libx11-6 (>= 1.8.13)
+Provides: libxrender
+Source: libxrender_0.9.12.bb
+Filename: libxrender1_0.9.12-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 14576
+MD5Sum: 7aef6fed89ed2174bf198ea84f946826
+
+Package: orb
+Version: 1.0+git385+8945a130+8945a1301c-r0
+Description: Open Red Button (ORB) HbbTV 2.0 engine with a WPE WebKit host
+ The HbbTV 2.0 application engine of the Open Red Button project
+ (application manager, OIPF/HbbTV request handlers, JavaScript polyfill),
+ plus what connects it to WPE WebKit on an enigma2 box: an in-process host
+ for the embedder, a web process extension that carries the polyfill's
+ bridge requests, and the ORBPlatform implementation the engine loads.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: orb
+Homepage: https://github.com/OpenRedButtonProject/orb
+Depends: libc6 (>= 2.43+git0+ce1013a197), libcurl4 (>= 8.19.0), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.88.0), libstdc++6 (>= 15.2.0), libuuid1 (>= 2.41.3), libwpewebkit-2.0-1 (>= 2.54.0), libxml2 (>= 2.15.2)
+Source: orb_git.bb
+Filename: orb_1.0+git385+8945a130+8945a1301c-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 525028
+MD5Sum: 78f82ab92a6c39ff94905cdd6a72ea96
+
+Package: orb
+Version: 1.0+git385+8945a130+8945a1301c-r1
+Description: Open Red Button (ORB) HbbTV 2.0 engine with a WPE WebKit host
+ The HbbTV 2.0 application engine of the Open Red Button project
+ (application manager, OIPF/HbbTV request handlers, JavaScript polyfill),
+ plus what connects it to WPE WebKit on an enigma2 box: an in-process host
+ for the embedder, a web process extension that carries the polyfill's
+ bridge requests, and the ORBPlatform implementation the engine loads.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: orb
+Homepage: https://github.com/OpenRedButtonProject/orb
+Depends: libc6 (>= 2.43+git0+ce1013a197), libcurl4 (>= 8.19.0), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.88.0), libstdc++6 (>= 15.2.0), libuuid1 (>= 2.41.3), libwpewebkit-2.0-1 (>= 2.54.0), libxml2 (>= 2.15.2)
+Source: orb_git.bb
+Filename: orb_1.0+git385+8945a130+8945a1301c-r1_cortexa15hf-neon-vfpv4.ipk
+Size: 531088
+MD5Sum: 100b265b3bd416031a21d5ac2958f7a4
+
+Package: orb
+Version: 1.0+git385+8945a130+8945a1301c-r2
+Description: Open Red Button (ORB) HbbTV 2.0 engine with a WPE WebKit host
+ The HbbTV 2.0 application engine of the Open Red Button project
+ (application manager, OIPF/HbbTV request handlers, JavaScript polyfill),
+ plus what connects it to WPE WebKit on an enigma2 box: an in-process host
+ for the embedder, a web process extension that carries the polyfill's
+ bridge requests, and the ORBPlatform implementation the engine loads.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: orb
+Homepage: https://github.com/OpenRedButtonProject/orb
+Depends: libc6 (>= 2.43+git0+ce1013a197), libcurl4 (>= 8.19.0), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.88.0), libstdc++6 (>= 15.2.0), libuuid1 (>= 2.41.3), libwpewebkit-2.0-1 (>= 2.54.0), libxml2 (>= 2.15.2)
+Source: orb_git.bb
+Filename: orb_1.0+git385+8945a130+8945a1301c-r2_cortexa15hf-neon-vfpv4.ipk
+Size: 537738
+MD5Sum: f798dbb6fb1983df876a1e441056592b
+
+Package: orb
+Version: 1.0+git385+8945a130+8945a1301c-r3
+Description: Open Red Button (ORB) HbbTV 2.0 engine with a WPE WebKit host
+ The HbbTV 2.0 application engine of the Open Red Button project
+ (application manager, OIPF/HbbTV request handlers, JavaScript polyfill),
+ plus what connects it to WPE WebKit on an enigma2 box: an in-process host
+ for the embedder, a web process extension that carries the polyfill's
+ bridge requests, and the ORBPlatform implementation the engine loads.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: orb
+Homepage: https://github.com/OpenRedButtonProject/orb
+Depends: libc6 (>= 2.43+git0+ce1013a197), libcurl4 (>= 8.19.0), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.88.0), libstdc++6 (>= 15.2.0), libuuid1 (>= 2.41.3), libwpewebkit-2.0-1 (>= 2.54.0), libxml2 (>= 2.15.2)
+Source: orb_git.bb
+Filename: orb_1.0+git385+8945a130+8945a1301c-r3_cortexa15hf-neon-vfpv4.ipk
+Size: 538386
+MD5Sum: 27eb618725599d3c036be2e877c9f6ed
+
+Package: orb
+Version: 1.0+git385+8945a130+8945a1301c-r4
+Description: Open Red Button (ORB) HbbTV 2.0 engine with a WPE WebKit host
+ The HbbTV 2.0 application engine of the Open Red Button project
+ (application manager, OIPF/HbbTV request handlers, JavaScript polyfill),
+ plus what connects it to WPE WebKit on an enigma2 box: an in-process host
+ for the embedder, a web process extension that carries the polyfill's
+ bridge requests, and the ORBPlatform implementation the engine loads.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: Apache-2.0
+Architecture: cortexa15hf-neon-vfpv4
+OE: orb
+Homepage: https://github.com/OpenRedButtonProject/orb
+Depends: libc6 (>= 2.43+git0+ce1013a197), libcurl4 (>= 8.19.0), libgcc1 (>= 15.2.0), libglib-2.0-0 (>= 2.88.0), libstdc++6 (>= 15.2.0), libuuid1 (>= 2.41.3), libwpewebkit-2.0-1 (>= 2.54.0), libxml2 (>= 2.15.2)
+Source: orb_git.bb
+Filename: orb_1.0+git385+8945a130+8945a1301c-r4_cortexa15hf-neon-vfpv4.ipk
+Size: 538612
+MD5Sum: 91ef8796eced1691c82b171caabf13b7
+
+Package: woff2
+Version: 1.0.2-r0
+Description: The Web Open Font Format file format 2.0 (WOFF2)
+ The Web Open Font Format (WOFF) is a font format for use in web pages.
+ The new WOFF 2.0 Web Font compression format offers a 30% average gain
+ over WOFF 1.0. It is a World Wide Web Consortium (W3C) recommendation.
+Section: base
+Priority: optional
+Maintainer: OpenViX
+License: MIT
+Architecture: cortexa15hf-neon-vfpv4
+OE: woff2
+Homepage: https://github.com/google/woff2
+Depends: brotli (>= 1.2.0), libc6 (>= 2.43+git0+ce1013a197), libgcc1 (>= 15.2.0), libstdc++6 (>= 15.2.0)
+Source: woff2_1.0.2.bb
+Filename: woff2_1.0.2-r0_cortexa15hf-neon-vfpv4.ipk
+Size: 39246
+MD5Sum: 0ef3d84193c6b89220ca21153e91c641
+
